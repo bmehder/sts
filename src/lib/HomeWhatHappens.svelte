@@ -132,5 +132,6 @@
 
   .flex {
     gap: var(--size-0-5);
+    justify-content: center;
   }
 </style>
