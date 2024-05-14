@@ -37,20 +37,10 @@
     color: white;
   }
 
-  /* .content-grid {
-    @media (width < 32rem) {
-      display: block;
-    }
-  } */
-
   .inner {
-    max-width: 52rem;
-    margin-inline: auto;
-    
     @media (width > 32rem) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      align-items: center;
       gap: var(--size-3);
     }
   }

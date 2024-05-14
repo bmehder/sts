@@ -78,7 +78,7 @@
 	}
 
   .inner {
-    max-width: 52rem;
+    max-width: 58rem;
     box-shadow: 0 1px 13px #e9e9e9;
     margin-inline: auto;
     padding-block-end: var(--size-3);
