@@ -11,4 +11,9 @@
   h2 {
     color: var(--green);
   }
+
+  p {
+    max-width: 58rem;
+    margin-inline: auto;
+  }
 </style>

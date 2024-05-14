@@ -12,7 +12,7 @@
 	import HomeStayInformed from '$lib/Home/HomeStayInformed.svelte'
 	import HomePreFooter from '$lib/Home/HomePreFooter.svelte'
 
-
+	export let data
 </script>
 
 <HomeHero />
@@ -23,7 +23,7 @@
 <HomeVisionSuccess />
 <HomeBetterWorld />
 <HomeWhatHappens />
-<HomeLivesChanged />
+<HomeLivesChanged quotes={data.quotes} />
 <HomeJoinMovement />
 <HomeStayInformed />
 <HomePreFooter />
