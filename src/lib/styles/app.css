@@ -1,0 +1,96 @@
+@layer app, layouts, skins, utilities, misc;
+
+:root {
+	--size: 1rem;
+	--size-0-5: calc(var(--size) / 2);
+	--size-1-5: calc(var(--size) * 1.5);
+	--size-2: calc(var(--size) * 2);
+	--size-3: calc(var(--size) * 3);
+	--size-4: calc(var(--size) * 4);
+	--size-5: calc(var(--size) * 5);
+	--size-6: calc(var(--size) * 6);
+	--fonts: system-ui, sans-serif;
+  --flow: 1.5em;
+	--plus: '\002B';
+	--minus: '\2212';
+	/* view-transition-name: none; */
+}
+
+@layer app {
+  * {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		/* outline: 1px solid #bada55; */
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+  body {
+		font-family: var(--fonts);
+	}
+
+  img,
+	iframe,
+	picture {
+		display: block;
+		width: 100%;
+		height: auto;
+		background-size: cover;
+		background-repeat: no-repeat;
+		font-style: italic;
+	}
+
+  ul {
+		list-style: none;
+	}
+
+	summary {
+		margin-inline-start: var(--size-0-5);
+		padding-left: var(--size-0-5);
+		list-style-position: outside;
+		cursor: pointer;
+	}
+
+	summary > * {
+		display: inline;
+	}
+
+	summary::marker {
+		content: var(--plus);
+		font-weight: bold;
+		font-size: var(--size);
+	}
+
+	details[open] summary::marker {
+		content: var(--minus);
+	}
+
+  details[open] summary::marker {
+		content: var(--minus);
+	}
+
+	/* Form elements */
+	label {
+		font-weight: 500;
+	}
+
+	input,
+	textarea {
+		padding: var(--size-0-5);
+	}
+
+	input,
+	textarea,
+	button {
+		font-family: inherit;
+		font-size: inherit;
+	}
+
+	input,
+	textarea {
+		border: 1px solid gray;
+	}
+}

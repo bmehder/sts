@@ -1,0 +1,17 @@
+<script>
+	import '$lib/styles/app.css'
+	import '$lib/styles/skins.css'
+	import '$lib/styles/layouts.css'
+	import '$lib/styles/utilities.css'
+	import '$lib/styles/misc.css'
+	import Header from '$lib/Headers/Header.svelte'
+	import Footer from '$lib/Footer.svelte'
+</script>
+
+<Header />
+
+<main class="content-grid">
+	<slot />
+</main>
+
+<Footer />
