@@ -1,4 +1,4 @@
-<img class="full-width" src="hands.jpg" alt="" />
+<img class="full-width" src="/home/hands.jpg" alt="" />
 
 <style>
 	img {

@@ -6,6 +6,7 @@
 	import '$lib/styles/misc.css'
 	import Header from '$lib/Headers/Header.svelte'
 	import Footer from '$lib/Footer.svelte'
+	import BackToTop from '$lib/BackToTop.svelte'
 </script>
 
 <Header />
@@ -15,3 +16,5 @@
 </main>
 
 <Footer />
+
+<BackToTop />

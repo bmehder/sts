@@ -12,7 +12,7 @@
   .hero {
     border-image: fill 0 linear-gradient(transparent, #000a);
     padding-block: var(--size-6);
-    background: url("/home-hero.jpg");
+    background: url("/home/home-hero.jpg");
     background-size: cover;
     background-position: center;
   }

@@ -70,5 +70,6 @@
 		display: flex;
 		justify-self: end;
 		gap: var(--size-0-5);
+		padding-inline-end: var(--size-3);
 	}
 </style>

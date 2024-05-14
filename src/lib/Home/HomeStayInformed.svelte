@@ -13,7 +13,7 @@
       </form>
     </div>
   </div>
-  <div class="together flow">
+  <div class="together flow balance">
     Together, we're not just sharing signals; we're building bridges to freedom. Every sign
     you recognize, every story you share, every dollar you donate brings someone closer to
     safety and further from harm.<br /><p>Join us in turning awareness into action.</p
@@ -68,7 +68,7 @@
 		text-align: center;
 		font-weight: 400;
 		border-radius: var(--size);
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
     
     @media (width > 32rem) {
       bottom: calc(var(--size-4) * -2.75);

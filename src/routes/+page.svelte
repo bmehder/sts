@@ -1,16 +1,16 @@
 <script>
-	import HomeHero from '$lib/HomeHero.svelte'
-	import HomeIntro from '$lib/HomeIntro.svelte'
-	import HomeStats from '$lib/HomeStats.svelte'
-	import HomePowerMove from '$lib/HomePowerMove.svelte'
-	import HomeTakeAction from '$lib/HomeTakeAction.svelte'
-	import HomeVisionSuccess from '$lib/HomeVisionSuccess.svelte'
-	import HomeBetterWorld from '$lib/HomeBetterWorld.svelte'
-	import HomeWhatHappens from '$lib/HomeWhatHappens.svelte'
-	import HomeLivesChanged from '$lib/HomeLivesChanged.svelte'
-	import HomeJoinMovement from '$lib/HomeJoinMovement.svelte'
-	import HomeStayInformed from '$lib/HomeStayInformed.svelte'
-	import HomePreFooter from '$lib/HomePreFooter.svelte'
+	import HomeHero from '$lib/Home/HomeHero.svelte'
+	import HomeIntro from '$lib/Home/HomeIntro.svelte'
+	import HomeStats from '$lib/Home/HomeStats.svelte'
+	import HomePowerMove from '$lib/Home/HomePowerMove.svelte'
+	import HomeTakeAction from '$lib/Home/HomeTakeAction.svelte'
+	import HomeVisionSuccess from '$lib/Home/HomeVisionSuccess.svelte'
+	import HomeBetterWorld from '$lib/Home/HomeBetterWorld.svelte'
+	import HomeWhatHappens from '$lib/Home/HomeWhatHappens.svelte'
+	import HomeLivesChanged from '$lib/Home/HomeLivesChanged.svelte'
+	import HomeJoinMovement from '$lib/Home/HomeJoinMovement.svelte'
+	import HomeStayInformed from '$lib/Home/HomeStayInformed.svelte'
+	import HomePreFooter from '$lib/Home/HomePreFooter.svelte'
 
 
 </script>
