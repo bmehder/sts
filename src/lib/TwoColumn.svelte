@@ -10,7 +10,7 @@
     </div>
     <div class="flow text">
       <h2>{title}</h2>
-      <p class="h2">{@html content}</p>
+      <p class="h3">{@html content}</p>
     </div>
   </div>
 </section>

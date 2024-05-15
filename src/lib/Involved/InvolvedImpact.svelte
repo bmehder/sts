@@ -2,7 +2,7 @@
   <div class="inner">
     <div class="flow">
       <h2>Impact of Your Support</h2>
-      <p class="h2">Your support empowers victims to seek help, escape dangerous situations, and rebuild their lives free from exploitation.</p>
+      <p class="h3">Your support empowers victims to seek help, escape dangerous situations, and rebuild their lives free from exploitation.</p>
       <a href="/" class="button">Donate now</a>
     </div>
     <div>

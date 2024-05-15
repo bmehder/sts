@@ -1,4 +1,5 @@
 <script>
+	import { page } from '$app/stores'
   import Play from '$lib/icons/Play.svelte'
 
   export let menuItems = []
@@ -19,7 +20,7 @@
       <nav class="main-navigation">
         <ul>
           {#each menuItems as { name, url }}        
-            <li><a href="{url}">{name}</a></li>
+            <li><a aria-current={$page.url.pathname === url} href="{url}">{name}</a></li>
           {/each}
         </ul>
       </nav>
@@ -44,12 +45,24 @@
   }
 
   a {
+		position: relative;
     color: black;
     font-weight: 600;
     text-decoration: none;
 
     &:hover {
       color: var(--green);
+    }
+
+    &[aria-current='true']::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: calc(var(--size-0-5) * -0.5);
+      width: 100%;
+      height: 2px;
+      background-color: var(--green);
+      view-transition-name: active-page;
     }
   }
 

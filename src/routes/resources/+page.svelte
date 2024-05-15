@@ -35,10 +35,6 @@
 <ResourcesDifference />
 
 <style>
-	:global(.hero .inner) {
-		max-width: 52rem !important;
-	}
-
 	:global(.image) {
 		background-position: 70% 0%;
     border-image: fill 0 linear-gradient(90deg, #000f, transparent);
