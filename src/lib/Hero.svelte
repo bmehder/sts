@@ -1,8 +1,15 @@
-<div class="hero full-width">
+<script>
+  export let lead = ''
+  export let main = ''
+  export let description = ''
+  export let src = ''
+</script>
+
+<div class="hero full-width" style="background-image: url({src});">
   <div class="inner fixed-flow">
-    <div class="lead">Fight Trafficking, Save Lives:</div>
-    <div class="main balance">Be the Force of Change.</div>
-    <div class="description">Transform lives by spotting the signs and taking action. Your involvement directly contributes to rescues and recovery — <span>be part of the solution</span>.</div>
+    <div class="lead">{lead}</div>
+    <div class="main balance">{main}</div>
+    <div class="description">{@html description}</div>
     <a href="/" class="button">Donate now</a>
   </div>
   <div class="free-guide"><a href="/">DOWNLOAD FREE GUIDE ON SIGNS OF MODERN DAY TRAFFICKING -</a> its not what you think</div>
@@ -12,13 +19,12 @@
   .hero {
     border-image: fill 0 linear-gradient(transparent, #000a);
     padding-block: var(--size-6);
-    background: url("/home/home-hero.jpg");
     background-size: cover;
     background-position: center;
   }
 
   .inner {
-    max-width: 24rem;
+    max-width: 25rem;
     color: white;
   }
 

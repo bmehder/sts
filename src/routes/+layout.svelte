@@ -7,9 +7,11 @@
 	import Header from '$lib/Headers/Header.svelte'
 	import Footer from '$lib/Footer.svelte'
 	import BackToTop from '$lib/BackToTop.svelte'
+
+	export let data
 </script>
 
-<Header />
+<Header menuItems={data.menuItems} />
 
 <main class="content-grid">
 	<slot />

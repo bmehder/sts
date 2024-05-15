@@ -1,5 +1,7 @@
 <script>
   import Play from '$lib/icons/Play.svelte'
+
+  export let menuItems = []
 </script>
 
 <header class="content-grid full-width">
@@ -16,13 +18,9 @@
       </div>
       <nav class="main-navigation">
         <ul>
-          <li><a href="/our-story">Our Story</a></li>
-          <li><a href="/our-work">Our Work</a></li>
-          <li><a href="/get-involved">Get Involved</a></li>
-          <li><a href="/resources">Resources</a></li>
-          <li><a href="/">Homepage</a></li>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="/blog">Blog</a></li>
+          {#each menuItems as { name, url }}        
+            <li><a href="{url}">{name}</a></li>
+          {/each}
         </ul>
       </nav>
     </div>

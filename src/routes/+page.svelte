@@ -1,5 +1,5 @@
 <script>
-	import HomeHero from '$lib/Home/HomeHero.svelte'
+	import Hero from '$lib/Hero.svelte'
 	import HomeIntro from '$lib/Home/HomeIntro.svelte'
 	import HomeStats from '$lib/Home/HomeStats.svelte'
 	import HomePowerMove from '$lib/Home/HomePowerMove.svelte'
@@ -15,7 +15,12 @@
 	export let data
 </script>
 
-<HomeHero />
+<Hero
+	lead="Fight Trafficking, Save Lives:"
+	main="Be the Force of Change."
+	description="Transform lives by spotting the signs and taking action. Your involvement directly contributes to rescues and recovery — <span>be part of the solution</span>."
+	src="/home/home-hero.jpg"
+/>
 <HomeIntro />
 <HomeStats />
 <HomePowerMove />

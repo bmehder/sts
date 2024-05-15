@@ -1,10 +1,16 @@
+<script>
+  export let title = ''
+  export let content = ''
+  export let src = ''
+</script>
+
 <section class="full-width">
   <div class="inner">
-    <div class="image">
+    <div class="image" style="background-image: url({src});">
     </div>
     <div class="flow text">
-      <h2>Our Role</h2>
-      <p class="h2"><span class="bold">Share The Signal</span> serves as a <span class="bold">compassionate and knowledgeable guide</span> in the fight against human trafficking.</p>
+      <h2>{title}</h2>
+      <p class="h2">{@html content}</p>
     </div>
   </div>
 </section>
@@ -23,7 +29,6 @@
     & .image {
       width: 100%;
       height: 100%;
-      background-image: url('/story/hands-holding-each-other-support.jpg');
       background-size: cover;
     }
 

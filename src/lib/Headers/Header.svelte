@@ -3,6 +3,7 @@
 	import MobileHeader from '$lib/Headers/MobileHeader.svelte'
 
 	export let mobileThreshold = 960
+	export let menuItems
 
 	let innerWidth
 </script>
@@ -10,7 +11,7 @@
 <svelte:window bind:innerWidth />
 
 {#if innerWidth < mobileThreshold}
-	<MobileHeader />
+	<MobileHeader {menuItems} />
 {:else}
-	<DesktopHeader />
+	<DesktopHeader {menuItems} />
 {/if}
