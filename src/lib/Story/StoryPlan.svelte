@@ -11,15 +11,15 @@
 		</div>
 		<div class="card flow">
 			<div class="h3">#2</div>
-			<p>Educate individuals about distress signals and how to recognize and use them.</p>
+			<p>Provide resources and support to victims seeking assistance.</p>
 		</div>
 		<div class="card flow">
 			<div class="h3">#3</div>
-			<p>Educate individuals about distress signals and how to recognize and use them.</p>
+			<p>Collaborate with law enforcement and other organizations to ensure victims' safety and recovery.</p>
 		</div>
 		<div class="card flow">
 			<div class="h3">#4</div>
-			<p>Educate individuals about distress signals and how to recognize and use them.</p>
+			<p>Advocate for policy changes to prevent human trafficking and support survivors.</p>
 		</div>
 	</div>
 </section>
