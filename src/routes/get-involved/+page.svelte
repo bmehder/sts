@@ -3,6 +3,14 @@
 	import InvolvedUnderstanding from '$lib/Involved/InvolvedUnderstanding.svelte'
 	import TwoColumn from '$lib/TwoColumn.svelte'
 	import InvolvedCollaboration from '$lib/Involved/InvolvedCollaboration.svelte'
+	import InvolvedAction from '$lib/Involved/InvolvedAction.svelte'
+	import InvolvedDownload from '$lib/Involved/InvolvedDownload.svelte'
+	import CenteredHero from '$lib/CenteredHero.svelte'
+	import InvolvedImpact from '$lib/Involved/InvolvedImpact.svelte'
+	import InvolvedAwareness from '$lib/Involved/InvolvedAwareness.svelte'
+	import InvolvedStories from '$lib/Involved/InvolvedStories.svelte'
+
+	export let data
 </script>
 
 <Hero
@@ -21,6 +29,24 @@
 />
 
 <InvolvedCollaboration />
+
+<InvolvedAction />
+
+<InvolvedDownload />
+
+<CenteredHero
+	lead="Vision of Change"
+	main="Imagine a world where every individual has the knowledge, resources, and support to seek help and reclaim their autonomy. "
+	description="By getting involved with Share The Signal, you're helping to create that world."
+  src="/involved/latin-people-training-outdoors.jpg"
+/>
+
+<InvolvedImpact />
+
+<InvolvedAwareness />
+
+<InvolvedStories quotes={data.quotes} />
+
 <style>
 	:global(.image) {
 		background-position: 70% 0%;
