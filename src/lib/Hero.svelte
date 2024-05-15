@@ -3,10 +3,11 @@
   export let main = ''
   export let description = ''
   export let src = ''
+  export let width = '25'
 </script>
 
 <div class="hero full-width" style="background-image: url({src});">
-  <div class="inner fixed-flow">
+  <div class="inner fixed-flow" style="max-width: {width}rem;">
     <div class="lead">{lead}</div>
     <div class="main balance">{main}</div>
     <div class="description">{@html description}</div>
@@ -24,7 +25,6 @@
   }
 
   .inner {
-    max-width: 25rem;
     color: white;
   }
 
