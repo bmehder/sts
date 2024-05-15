@@ -41,6 +41,8 @@
 		background-color: white;
 		color: black;
 		text-align: left;
+		border-radius: var(--size);
+		box-shadow: 0 1px 13px rgba(0, 0, 0, 0.1);
 
 		& .h3 {
 			color: var(--yellow);
