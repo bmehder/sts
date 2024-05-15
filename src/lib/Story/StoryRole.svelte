@@ -28,7 +28,9 @@
     }
 
     & .text {
-      padding-block: var(--size-4);
+      padding-block: calc(var(--size-2) * 3);
+
+      /* padding-block: var(--size-4); */
       padding-inline: var(--size-2);
     }
     
