@@ -17,7 +17,7 @@
 <style>
   .hero {
     border-image: fill 0 linear-gradient(transparent, #000a);
-    padding-block: var(--size-6);
+    padding-block: calc(var(--size-4) * 2);
     background-size: cover;
     background-position: center;
     text-align: center;

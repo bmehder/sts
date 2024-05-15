@@ -38,5 +38,6 @@
   img {
     aspect-ratio: 4/3;
     object-fit: cover;
+    border-radius: var(--size-0-5);
   }
 </style>
