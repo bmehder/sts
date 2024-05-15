@@ -51,6 +51,5 @@
 	:global(.image) {
 		background-position: 70% 0%;
     border-image: fill 0 linear-gradient(90deg, #000f, transparent);
-
 	}
 </style>

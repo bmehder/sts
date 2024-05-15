@@ -32,6 +32,7 @@
     color: var(--green);
     font-size: var(--size-1-5);
     font-weight: 600;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   }
   
   .main {
