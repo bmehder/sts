@@ -1,0 +1,22 @@
+<script>
+  import FormSparkAsync from '$lib/FormSparkAsync.svelte'
+
+  const FORMSPARK_ID = ''
+  const BOTPOISON_KEY = 'pk_a3136ac2-f7c3-4fee-8735-5285801ca731'
+</script>
+
+
+<section class="space flow full-width">
+  <h1 class="title">Contact</h1>
+  <FormSparkAsync id={FORMSPARK_ID} botpoisonKey={BOTPOISON_KEY} />
+</section>
+
+<style>
+  h1 {
+    color: var(--green);
+  }
+  
+  section {
+    background-color: white;
+  }
+</style>
