@@ -14,6 +14,8 @@
 	main="Are you deeply concerned about human trafficking and its impact on individuals, communities, and society?"
 	description="Despite increased awareness, human trafficking remains a pervasive global issue, leaving victims vulnerable and unable to seek help due to a lack of comprehensive information and support resources."
 	src="/resources/group-therapy-session.jpg"
+	isButton="{false}"
+	isDownload="{false}"
 	width="52"
 />
 

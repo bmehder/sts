@@ -16,6 +16,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@botpoison/browser": "^0.1.30"
+		"@botpoison/browser": "^0.1.30",
+		"@fontsource-variable/manrope": "^5.0.20"
 	}
 }

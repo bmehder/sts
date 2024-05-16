@@ -32,6 +32,7 @@
   header {
     padding-block: var(--size);
     background-color: white;
+    border-bottom: 1px solid #d9d9d9;
   }
   
   .inner {
@@ -51,6 +52,10 @@
     text-decoration: none;
 
     &:hover {
+      color: var(--green);
+    }
+
+    &[aria-current='true'] {
       color: var(--green);
     }
 

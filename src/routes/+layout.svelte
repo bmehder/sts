@@ -1,4 +1,5 @@
 <script>
+	import '@fontsource-variable/manrope';
 	import '$lib/styles/app.css'
 	import '$lib/styles/skins.css'
 	import '$lib/styles/layouts.css'

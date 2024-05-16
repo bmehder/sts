@@ -29,6 +29,7 @@
     aspect-ratio: 1;
 		color: #545454;
     font-size: 1.5rem;
+		line-height: 2;
     border: 3px solid #545454;
 		border-radius: 50%;
 		transition: scale 150ms ease;
