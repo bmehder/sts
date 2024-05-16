@@ -107,7 +107,7 @@
 	}
 
 	.item {
-		max-width: 14rem;
+		max-width: 16rem;
     padding-block: var(--size-3);
 		text-align: center;
 
