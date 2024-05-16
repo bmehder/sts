@@ -5,17 +5,16 @@
 	import '$lib/styles/layouts.css'
 	import '$lib/styles/utilities.css'
 	import '$lib/styles/misc.css'
+	import menuItems from "$lib/Headers/menu-items.js";
 	import ViewTransition from '$lib/ViewTransition.svelte'
 	import Header from '$lib/Headers/Header.svelte'
 	import Footer from '$lib/Footer.svelte'
 	import BackToTop from '$lib/BackToTop.svelte'
-
-	export let data
 </script>
 
 <ViewTransition />
 
-<Header menuItems={data.menuItems} />
+<Header {menuItems} />
 
 <main class="content-grid">
 	<slot />
