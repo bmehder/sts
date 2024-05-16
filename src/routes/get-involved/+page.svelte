@@ -1,14 +1,14 @@
 <script>
 	import Hero from '$lib/Hero.svelte'
-	import InvolvedUnderstanding from '$lib/Involved/InvolvedUnderstanding.svelte'
+	import Understanding from './Understanding.svelte'
 	import TwoColumn from '$lib/TwoColumn.svelte'
-	import InvolvedCollaboration from '$lib/Involved/InvolvedCollaboration.svelte'
-	import InvolvedAction from '$lib/Involved/InvolvedAction.svelte'
-	import InvolvedDownload from '$lib/Involved/InvolvedDownload.svelte'
+	import Collaboration from './Collaboration.svelte'
+	import Action from './Action.svelte'
+	import Download from './Download.svelte'
 	import CenteredHero from '$lib/CenteredHero.svelte'
-	import InvolvedImpact from '$lib/Involved/InvolvedImpact.svelte'
-	import InvolvedAwareness from '$lib/Involved/InvolvedAwareness.svelte'
-	import InvolvedStories from '$lib/Involved/InvolvedStories.svelte'
+	import Impact from './Impact.svelte'
+	import Awareness from './Awareness.svelte'
+	import Stories from './Stories.svelte'
 
 	export let data
 </script>
@@ -20,19 +20,19 @@
   src="/involved/get-involved-hero.jpg"
 />
 
-<InvolvedUnderstanding />
+<Understanding />
 
 <TwoColumn
 	title="Our Role"
 	content="Share The Signal serves as your <span class='bold'>guide in the fight against human trafficking</span>, offering empathy and authority in addressing this critical issue.<br /><br />We understand the challenges and complexities victims face, and we're here to provide support and resources to help them find safety."
-	src="/involved/sad-woman.jpg"
+	src="involved/sad-woman.jpg"
 />
 
-<InvolvedCollaboration />
+<Collaboration />
 
-<InvolvedAction />
+<Action />
 
-<InvolvedDownload />
+<Download />
 
 <CenteredHero
 	lead="Vision of Change"
@@ -41,11 +41,11 @@
   src="/involved/latin-people-training-outdoors.jpg"
 />
 
-<InvolvedImpact />
+<Impact />
 
-<InvolvedAwareness />
+<Awareness />
 
-<InvolvedStories quotes={data.quotes} />
+<Stories quotes={data.quotes} />
 
 <style>
 	:global(.image) {

@@ -36,7 +36,7 @@
   }
   
   .main {
-    font-size: var(--size-4);
+    font-size: var(--size-3);
     font-weight: 600;
     line-height: 1.1;
   }

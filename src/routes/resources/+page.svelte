@@ -1,12 +1,12 @@
 <script>
 	import Hero from '$lib/Hero.svelte'
-	import ResourcesTrustedGuide from '$lib/Resources/ResourcesTrustedGuide.svelte'
-	import ResourcesExplore from '$lib/Resources/ResourcesExplore.svelte'
-	import ResourcesSteps from '$lib/Resources/ResourcesSteps.svelte'
-	import ResourcesCombating from '$lib/Resources/ResourcesCombating.svelte'
+	import TrustedGuide from './TrustedGuide.svelte'
+	import Explore from './Explore.svelte'
+	import Steps from './Steps.svelte'
+	import Combating from './Combating.svelte'
 	import TwoColumn from '$lib/TwoColumn.svelte'
-	import ResourcesFailure from '$lib/Resources/ResourcesFailure.svelte'
-	import ResourcesDifference from '$lib/Resources/ResourcesDifference.svelte'
+	import Failure from './Failure.svelte'
+	import Difference from './Difference.svelte'
 </script>
 
 <Hero
@@ -14,16 +14,16 @@
 	main="Are you deeply concerned about human trafficking and its impact on individuals, communities, and society?"
 	description="Despite increased awareness, human trafficking remains a pervasive global issue, leaving victims vulnerable and unable to seek help due to a lack of comprehensive information and support resources."
 	src="/resources/group-therapy-session.jpg"
-	width="48"
+	width="52"
 />
 
-<ResourcesTrustedGuide />
+<TrustedGuide />
 
-<ResourcesExplore />
+<Explore />
 
-<ResourcesSteps />
+<Steps />
 
-<ResourcesCombating />
+<Combating />
 
 <TwoColumn
 	title="Become a Powerful Advocate"
@@ -31,9 +31,9 @@
 	src="/resources/women-hugging.jpg"
 />
 
-<ResourcesFailure />
+<Failure />
 
-<ResourcesDifference />
+<Difference />
 
 <style>
 	:global(.image) {
