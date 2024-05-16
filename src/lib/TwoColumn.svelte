@@ -2,11 +2,12 @@
   export let title = ''
   export let content = ''
   export let src = ''
+  export let className = ''
 </script>
 
 <section class="full-width">
   <div class="inner">
-    <div class="image" style="background-image: url({src});">
+    <div class="image {className}" style="background-image: url({src});">
     </div>
     <div class="flow text">
       <h2>{title}</h2>

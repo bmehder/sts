@@ -1,8 +1,14 @@
 <script>
 	import { page } from '$app/stores'
   import Play from '$lib/icons/Play.svelte'
+  import { openModal } from 'svelte-modals'
+  import Modal from '$lib/Modal.svelte'
 
   export let menuItems = []
+  
+  function handleClick() {
+    openModal(Modal, { title: "Alert", message: "This is an alert" })
+  }
 </script>
 
 <header class="content-grid full-width">
@@ -13,7 +19,7 @@
     <div class="navigation">
       <div class="secondary-navigation">
         <ul>
-          <li><a href="/"><Play /><span>View Share The Signal video</span></a></li>
+          <li><button class="a" on:click={handleClick}><Play /><span>View Share The Signal video</span></button></li>
           <li><a class="button" href="/">Donate now</a></li>
         </ul>
       </div>
@@ -78,6 +84,19 @@
     & a:not(.button) {
       color: var(--green);
       text-decoration: underline;
+    }
+    
+    & .a {
+      display: flex;
+      align-items: center;
+      gap: var(--size-0-5);
+      padding-block: 0;
+      text-decoration: underline;
+      box-shadow: none;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
     
     & .button {

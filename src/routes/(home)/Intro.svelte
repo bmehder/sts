@@ -10,8 +10,8 @@
       <p>
         Our mission is clear: <span class="italic">
           to end human trafficking by empowering you with knowledge,
-          tools, and the courage to act when you see the signs
-        </span>.
+          tools, and the courage to act when you see the signs.
+        </span>
       </p>
       <p>
         We get it — facing the enormity of human trafficking can make you feel powerless. But

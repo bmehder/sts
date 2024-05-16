@@ -15,6 +15,11 @@
 	export let data
 </script>
 
+<svelte:head>
+	<title>Home - Fight Human Trafficking, Save Lives – Share The Signal</title>
+	<meta name="description" content="At Share The Signal, our mission is clear: to end human trafficking by empowering you with knowledge, tools, and the courage to act when you see the signs.">
+</svelte:head>
+
 <Hero
 	lead="Fight Trafficking, Save Lives:"
 	main="Be the Force of Change."

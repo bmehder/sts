@@ -1,4 +1,5 @@
 <script>
+	import { slide } from 'svelte/transition'
 	import '@fontsource-variable/manrope';
 	import '$lib/styles/app.css'
 	import '$lib/styles/skins.css'
@@ -10,6 +11,8 @@
 	import Header from '$lib/Headers/Header.svelte'
 	import Footer from '$lib/Footer.svelte'
 	import BackToTop from '$lib/BackToTop.svelte'
+  import { Modals, closeModal } from 'svelte-modals'
+
 </script>
 
 <ViewTransition />
@@ -23,3 +26,12 @@
 <Footer />
 
 <BackToTop />
+
+<Modals>
+  <div
+    slot="backdrop"
+    class="backdrop"
+    on:click={closeModal}
+		in:slide|global out:slide|global={{duration: 200}}
+  />
+</Modals>

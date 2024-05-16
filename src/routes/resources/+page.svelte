@@ -9,6 +9,11 @@
 	import Difference from './Difference.svelte'
 </script>
 
+<svelte:head>
+	<title>Resources for Human Trafficking Awareness – Share The Signal</title>
+	<meta name="description" content="Dive into our curated collection of articles, guides, videos, and toolkits to deepen your understanding of human trafficking, its signs, and its impact.">
+</svelte:head>
+
 <Hero
 	lead="Resources for Human Trafficking Awareness and Support"
 	main="Are you deeply concerned about human trafficking and its impact on individuals, communities, and society?"
@@ -16,7 +21,7 @@
 	src="/resources/group-therapy-session.jpg"
 	isButton="{false}"
 	isDownload="{false}"
-	width="52"
+	width="42"
 />
 
 <TrustedGuide />
@@ -31,15 +36,9 @@
 	title="Become a Powerful Advocate"
 	content="By utilizing our resources and taking action, you become a powerful advocate in the fight against human trafficking, contributing to the prevention of exploitation and the empowerment of victims."
 	src="/resources/women-hugging.jpg"
+	className="advocate"
 />
 
 <Failure />
 
 <Difference />
-
-<style>
-	:global(.image) {
-		background-position: 70% 0%;
-    border-image: fill 0 linear-gradient(90deg, #000f, transparent);
-	}
-</style>

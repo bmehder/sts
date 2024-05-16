@@ -17,6 +17,7 @@
 	"type": "module",
 	"dependencies": {
 		"@botpoison/browser": "^0.1.30",
-		"@fontsource-variable/manrope": "^5.0.20"
+		"@fontsource-variable/manrope": "^5.0.20",
+		"svelte-modals": "^1.3.0"
 	}
 }

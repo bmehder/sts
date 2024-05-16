@@ -1,5 +1,5 @@
 <section class="space flow full-width">
-	<h1>About Us</h1>
+	<h1>Our Story</h1>
 	<div class="tagline h2">
 		At Share The Signal, our heroes are individuals who <span class="bold"
 			>seek to end human trafficking and empower victims.</span
