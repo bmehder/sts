@@ -1,9 +1,5 @@
 export default [
 	{
-		name: 'Home',
-		url: '/',
-	},
-	{
 		name: 'Our Story',
 		url: '/our-story/',
 	},
@@ -20,11 +16,15 @@ export default [
 		url: '/resources/',
 	},
 	{
-		name: 'Blog',
-		url: '/blog/',
+		name: 'Homepage',
+		url: '/',
 	},
 	{
 		name: 'Contact',
 		url: '/contact/',
+	},
+	{
+		name: 'Blog',
+		url: '/blog/',
 	},
 ]
