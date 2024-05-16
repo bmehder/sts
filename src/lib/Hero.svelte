@@ -18,7 +18,8 @@
 
 <style>
   .hero {
-    border-image: fill 0 linear-gradient(transparent, #000a);
+    /* border-image: fill 0 linear-gradient(transparent, #000a); */
+    border-image: fill 0 linear-gradient(#0006, #0006);
     padding-block: var(--size-6);
     background-size: cover;
     background-position: center;
@@ -32,7 +33,6 @@
     color: var(--green);
     font-size: var(--size-1-5);
     font-weight: 600;
-    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   }
   
   .main {
