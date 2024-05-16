@@ -5,7 +5,6 @@
 	import Collaboration from './Collaboration.svelte'
 	import Action from './Action.svelte'
 	import Download from './Download.svelte'
-	import CenteredHero from '$lib/CenteredHero.svelte'
 	import Impact from './Impact.svelte'
 	import Awareness from './Awareness.svelte'
 	import Stories from './Stories.svelte'
@@ -25,7 +24,7 @@
 <TwoColumn
 	title="Our Role"
 	content="Share The Signal serves as your <span class='bold'>guide in the fight against human trafficking</span>, offering empathy and authority in addressing this critical issue.<br /><br />We understand the challenges and complexities victims face, and we're here to provide support and resources to help them find safety."
-	src="involved/sad-woman.jpg"
+	src="/involved/sad-woman.jpg"
 />
 
 <Collaboration />
@@ -34,11 +33,16 @@
 
 <Download />
 
-<CenteredHero
+<Hero
 	lead="Vision of Change"
-	main="Imagine a world where every individual has the knowledge, resources, and support to seek help and reclaim their autonomy. "
+	main="Imagine a world where every individual has the knowledge, resources, and support to seek help and reclaim their autonomy."
 	description="By getting involved with Share The Signal, you're helping to create that world."
-  src="/involved/latin-people-training-outdoors.jpg"
+	src="/resources/group-therapy-session.jpg"
+	width="64"
+	isCentered={true}
+	isDownload={false}
+	isBalance={false}
+	leadColor="var(--yellow)"
 />
 
 <Impact />
