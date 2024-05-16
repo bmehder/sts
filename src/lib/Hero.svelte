@@ -4,7 +4,7 @@
 	export let description = ''
 	export let src = ''
 	export let width = '25'
-	export let leadColor = 'var(--green)'
+	export let leadColor = 'var(--teal)'
 	export let isCentered = false
 	export let isDownload = true
 	export let isButton = true
@@ -45,7 +45,7 @@
 	}
 
 	.lead {
-		color: var(--green);
+		color: var(--teal);
 		font-size: var(--size-1-5);
 		font-weight: 600;
 	}

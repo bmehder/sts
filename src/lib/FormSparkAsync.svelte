@@ -169,7 +169,7 @@
     width: min(100%, 42em);
     padding: var(--size-2);
     background-color: #545454;
-    background-color: var(--green);
+    background-color: var(--teal);
     color: white;
     border-radius: var(--size-0-5);
   }

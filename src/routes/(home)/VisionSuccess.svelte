@@ -48,7 +48,7 @@
   }
 
   h2 span{
-    color: var(--green);
+    color: var(--teal);
   }
 
   .grid {

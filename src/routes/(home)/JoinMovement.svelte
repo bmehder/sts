@@ -11,7 +11,7 @@
   </div>
   <div class="awareness">
     <h2>Your awareness can be someone's lifeline.</h2>
-    <p><span style="color: var(--red)">Act,</span> <span style="color: var(--green)">Donate,</span> <span style="color: var(--yellow)">Share.</span></p>
+    <p><span style="color: var(--red)">Act,</span> <span style="color: var(--teal)">Donate,</span> <span style="color: var(--yellow)">Share.</span></p>
   </div>
 </section>
 

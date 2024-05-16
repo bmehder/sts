@@ -33,7 +33,7 @@
         </ul>
       </div>
       <div class="flow">
-        <h3 style="color: var(--green);">Your Action's Impact:</h3>
+        <h3 style="color: var(--teal);">Your Action's Impact:</h3>
         <ul class="list">
           <li>
             <span class="bold">Spot and Report:</span> More chances to identify and save victims.
@@ -58,7 +58,7 @@
     </div>
     <div class="footer">
       <span style="color: var(--red);">Choose Action.</span>
-      <span style="color: var(--green);">Change Lives.</span>
+      <span style="color: var(--teal);">Change Lives.</span>
       <ul class="socials">
         <li><a href="/" class="button" style="background-color: black; color: white;">Donate now</a></li>
         <li class="flex">

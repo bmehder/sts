@@ -25,7 +25,7 @@
   section {
     position: relative;
     padding-block-end: var(--size-6);
-    background-color: var(--green);
+    background-color: var(--teal);
     color: white;
   }
 

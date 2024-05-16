@@ -41,7 +41,7 @@
     }
     
     & h2 {
-      color: var(--green);
+      color: var(--teal);
       line-height: 1.5;
     }
     

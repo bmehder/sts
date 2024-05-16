@@ -20,10 +20,10 @@
     width: 24px;
     height: 24px;
     margin: 2px;
-    border: 4px solid var(--green);
+    border: 4px solid var(--teal);
     border-radius: 50%;
     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    border-color: var(--green) transparent transparent transparent;
+    border-color: var(--teal) transparent transparent transparent;
   }
   .lds-ring div:nth-child(1) {
     animation-delay: -0.45s;

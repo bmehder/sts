@@ -58,11 +58,11 @@
     text-decoration: none;
 
     &:hover {
-      color: var(--green);
+      color: var(--teal);
     }
 
     &[aria-current='true'] {
-      color: var(--green);
+      color: var(--teal);
     }
 
     &[aria-current='true']::after {
@@ -72,7 +72,7 @@
       bottom: calc(var(--size-0-5) * -0.5);
       width: 100%;
       height: 2px;
-      background-color: var(--green);
+      background-color: var(--teal);
       view-transition-name: active-page;
     }
   }
@@ -82,7 +82,7 @@
     align-items: center;
 
     & a:not(.button) {
-      color: var(--green);
+      color: var(--teal);
       text-decoration: underline;
     }
     
@@ -101,7 +101,7 @@
     
     & .button {
       padding-block: 0;
-      background-color: var(--green);
+      background-color: var(--teal);
       color: white;
     }
 

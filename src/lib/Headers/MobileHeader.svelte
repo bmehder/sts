@@ -71,7 +71,7 @@
 
 	li {
 		padding-block-end: 0.5rem;
-		border-bottom: 1px solid var(--green);
+		border-bottom: 1px solid var(--teal);
 	}
 
 	a {

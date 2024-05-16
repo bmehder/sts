@@ -17,10 +17,10 @@
 
 <style>
   h1 {
-    color: var(--green);
+    color: var(--teal);
   }
   
   section {
-    background-color: white;
+    /* background-color: white; */
   }
 </style>

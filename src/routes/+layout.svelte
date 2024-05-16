@@ -1,5 +1,5 @@
 <script>
-	import { slide } from 'svelte/transition'
+	import { fade } from 'svelte/transition'
 	import '@fontsource-variable/manrope';
 	import '$lib/styles/app.css'
 	import '$lib/styles/skins.css'
@@ -32,6 +32,6 @@
     slot="backdrop"
     class="backdrop"
     on:click={closeModal}
-		in:slide|global out:slide|global={{duration: 200}}
+		in:fade|global={{duration: 200}} out:fade|global={{duration: 100}}
   />
 </Modals>

@@ -40,7 +40,7 @@
 			line-height: 1.5;
 
       & span {
-        color: var(--green)
+        color: var(--teal)
       }
 		}
 

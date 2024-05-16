@@ -53,7 +53,7 @@
 	}
 
 	span {
-		color: var(--green);
+		color: var(--teal);
 	}
 
 	.controls {

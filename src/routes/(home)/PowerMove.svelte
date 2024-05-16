@@ -88,7 +88,7 @@
 	h2 {
 		margin-block-start: var(--size-2);
 		margin-block-end: var(--size-3);
-		color: var(--green);
+		color: var(--teal);
 		text-align: center;
 	}
 
@@ -97,7 +97,7 @@
 		position: absolute;
 		top: calc(var(--size-1-5) * -1);
 		padding-block: var(--size-0-5);
-		background-color: var(--green);
+		background-color: var(--teal);
 		color: white;
 		font-size: var(--size-1-5);
 		font-size: var(--size-1-5);

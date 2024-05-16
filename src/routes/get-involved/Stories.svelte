@@ -44,7 +44,7 @@
   }
 
   h2 {
-    color: var(--green);
+    color: var(--teal);
   }
 
   .inner {

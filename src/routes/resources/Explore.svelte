@@ -11,7 +11,7 @@
       <p>Spread the word by sharing these resources with your community, amplifying the message, and increasing awareness about human trafficking.</p>
     </div>
     <div class="item">
-      <h3 class="h2" style="color: var(--green);">Support Victims</h3>
+      <h3 class="h2" style="color: var(--teal);">Support Victims</h3>
       <p>Learn how to recognize signs of trafficking and provide support to victims by accessing our comprehensive support materials.</p>
     </div>
   </div>

@@ -29,7 +29,7 @@
 		width: 100px;
 		margin: auto;
 		aspect-ratio: 1;
-		border: 4px solid var(--green);
+		border: 4px solid var(--teal);
 		border-radius: 50%;
 	}
 </style>

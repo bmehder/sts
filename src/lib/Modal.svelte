@@ -1,7 +1,7 @@
 <script>
-	import { slide } from 'svelte/transition'
+	import { fade } from 'svelte/transition'
 	import { closeModal } from 'svelte-modals'
-  import Sveltetube from '$lib/Sveltetube.svelte';
+	import Sveltetube from '$lib/Sveltetube.svelte'
 
 	// provided by <Modals />
 	export let isOpen
@@ -9,15 +9,20 @@
 	export let title
 	export let message
 
-  const handleKeydown = evt => evt.key === 'Escape' && closeModal()
+	const handleKeydown = evt => evt.key === 'Escape' && closeModal()
 </script>
 
 <svelte:window on:keydown={handleKeydown} />
 
 {#if isOpen}
-	<div role="dialog" class="modal" in:slide|global out:slide|global={{duration: 200}}>
+	<div
+		role="dialog"
+		class="modal"
+		in:fade|global={{ duration: 200 }}
+		out:fade|global={{ duration: 100 }}
+	>
 		<div class="contents">
-      <Sveltetube />
+			<Sveltetube />
 			<!-- <h2>{title}</h2>
 			<p>{message}</p>
 			<div class="actions">

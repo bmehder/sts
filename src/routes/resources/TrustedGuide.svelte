@@ -9,7 +9,7 @@
   }
 
   h2 {
-    color: var(--green);
+    color: var(--teal);
   }
 
   p {

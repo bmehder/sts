@@ -2,7 +2,7 @@
 
 @layer skins {
 	:root {
-		--green: #93cad4;
+		--teal: #93cad4;
 		--yellow: #efb812;
 		--red: #c71019;
 	}
@@ -13,7 +13,7 @@
 	}
 
 	a, .a {
-		color: var(--green);
+		color: var(--teal);
 	}
 
 	h1,

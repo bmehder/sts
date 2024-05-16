@@ -9,6 +9,6 @@
   }
 
   h1 {
-    color: var(--green);
+    color: var(--teal);
   }
 </style>

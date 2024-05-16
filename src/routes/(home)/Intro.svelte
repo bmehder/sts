@@ -46,7 +46,7 @@
 
     & span {
       display: block;
-      color: var(--green);
+      color: var(--teal);
     }
   }
 </style>

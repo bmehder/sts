@@ -5,7 +5,7 @@
 
 <style>
   section {
-    background-color: var(--green);
+    background-color: var(--teal);
     color: white;
     text-align: center;
   }
