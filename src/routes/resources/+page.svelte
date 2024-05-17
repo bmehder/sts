@@ -22,6 +22,7 @@
 	isButton="{false}"
 	isDownload="{false}"
 	width="42"
+	overlayColor="#0006"
 />
 
 <TrustedGuide />

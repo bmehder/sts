@@ -9,13 +9,18 @@
 	export let isDownload = true
 	export let isButton = true
 	export let isBalance = true
+	export let overlayColor = '#0002'
 </script>
 
 <div
 	class="hero full-width"
-	style="background-image: url({src}); text-align:{isCentered && 'center'}"
+	style="background-image: url({src}); text-align:{isCentered &&
+		'center'}; border-image: fill 0 linear-gradient({overlayColor}, {overlayColor});"
 >
-	<div class="inner fixed-flow" style="max-width: {width}rem; margin-inline:{isCentered && 'auto'};">
+	<div
+		class="inner fixed-flow"
+		style="max-width: {width}rem; margin-inline:{isCentered && 'auto'};"
+	>
 		<div class="lead" style="color: {leadColor};">{lead}</div>
 		<div class="main" class:balance={isBalance}>{main}</div>
 		<div class="description">{@html description}</div>
@@ -34,7 +39,6 @@
 <style>
 	.hero {
 		/* border-image: fill 0 linear-gradient(transparent, #000a); */
-		border-image: fill 0 linear-gradient(#0006, #0006);
 		padding-block: var(--size-6);
 		background-size: cover;
 		background-position: center;
@@ -48,6 +52,7 @@
 		color: var(--teal);
 		font-size: var(--size-1-5);
 		font-weight: 600;
+		text-shadow: 1px 1px 1px #545454;
 	}
 
 	.main {
