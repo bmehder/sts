@@ -6,8 +6,8 @@
 	// provided by <Modals />
 	export let isOpen
 
-	export let title
-	export let message
+	// export let title
+	// export let message
 
 	const handleKeydown = evt => evt.key === 'Escape' && closeModal()
 </script>
@@ -15,8 +15,13 @@
 <svelte:window on:keydown={handleKeydown} />
 
 {#if isOpen}
-	<div
+	<!-- <div
 		role="dialog"
+		class="modal"
+		in:fade|global={{ duration: 200 }}
+		out:fade|global={{ duration: 100 }}
+	> -->
+	<div
 		class="modal"
 		in:fade|global={{ duration: 200 }}
 		out:fade|global={{ duration: 100 }}
@@ -56,7 +61,7 @@
 		pointer-events: auto;
 	}
 
-	h2 {
+	/* h2 {
 		text-align: center;
 		font-size: 24px;
 	}
@@ -70,5 +75,5 @@
 		margin-top: 32px;
 		display: flex;
 		justify-content: flex-end;
-	}
+	} */
 </style>

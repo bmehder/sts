@@ -97,6 +97,10 @@
       &:hover {
         text-decoration: none;
       }
+      
+      &:focus-visible {
+        outline: none;
+      }
     }
     
     & .button {

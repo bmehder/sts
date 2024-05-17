@@ -19,8 +19,4 @@
   h1 {
     color: var(--teal);
   }
-  
-  section {
-    /* background-color: white; */
-  }
 </style>

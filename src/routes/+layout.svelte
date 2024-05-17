@@ -29,9 +29,11 @@
 
 <Modals>
   <div
+		role="button"
     slot="backdrop"
     class="backdrop"
     on:click={closeModal}
+		on:keydown={evt => evt.key === 'Escape' && closeModal()}
 		in:fade|global={{duration: 200}} out:fade|global={{duration: 100}}
   />
 </Modals>
