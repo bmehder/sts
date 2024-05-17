@@ -6,16 +6,15 @@
 	export let quotes = []
 
 	let quoteIndex = 0
+	let direction = 'forward'
 
 	const handleClick = x => {
 		if (x === 'left') {
-			quoteIndex = quoteIndex === 0
-				? quotes.length - 1
-				: quoteIndex - 1
+			direction = 'forward'
+			quoteIndex = quoteIndex === 0 ? quotes.length - 1 : quoteIndex - 1
 		} else {
-			quoteIndex = quoteIndex === quotes.length - 1
-				? 0
-				: quoteIndex + 1
+			direction = 'reverse'
+			quoteIndex = quoteIndex === quotes.length - 1 ? 0 : quoteIndex + 1
 		}
 	}
 </script>
@@ -25,7 +24,11 @@
 		<div>
 			<h2><span>Lives Changed:</span><br />Real Stories of Rescue and Renewal.</h2>
 		</div>
-		<Quote quote={quotes[quoteIndex].content} cite={quotes[quoteIndex].cite} />
+		<Quote
+			quote={quotes[quoteIndex].content}
+			cite={quotes[quoteIndex].cite}
+			{direction}
+		/>
 	</div>
 	<div class="controls">
 		<Left on:click={() => handleClick('left')} />

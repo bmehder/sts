@@ -5,52 +5,59 @@
 
 	export let quotes = []
 
-  console.log(quotes)
+	console.log(quotes)
 
 	let quoteIndex = 0
+	let direction = 'forward'
 
 	const handleClick = x => {
 		if (x === 'left') {
-			quoteIndex = quoteIndex === 0
-				? quotes.length - 1
-				: quoteIndex - 1
+			direction = 'forward'
+			quoteIndex = quoteIndex === 0 ? quotes.length - 1 : quoteIndex - 1
 		} else {
-			quoteIndex = quoteIndex === quotes.length - 1
-				? 0
-				: quoteIndex + 1
+			direction = 'reverse'
+			quoteIndex = quoteIndex === quotes.length - 1 ? 0 : quoteIndex + 1
 		}
 	}
 </script>
 
 <section class="space full-width">
-  <div class="inner">
-    <div class="flow">
-      <h2>Inspiring Stories</h2>
-      <p class="h3">Hear from volunteers, donors, and advocates who have made a difference through Share The Signal. Their stories inspire hope and demonstrate the impact of our work.</p>
-    </div>
-    <div style="margin-block-start: var(--size-4);">
-      <Quote quote={quotes[quoteIndex].content} cite={quotes[quoteIndex].cite} />
-    </div>
-  </div>
-  <div class="controls">
+	<div class="inner">
+		<div class="flow">
+			<h2>Inspiring Stories</h2>
+			<p class="h3">
+				Hear from volunteers, donors, and advocates who have made a difference through
+				Share The Signal. Their stories inspire hope and demonstrate the impact of our
+				work.
+			</p>
+		</div>
+		<div style="margin-block-start: var(--size-4);">
+			<Quote
+				quote={quotes[quoteIndex].content}
+				cite={quotes[quoteIndex].cite}
+				{direction}
+			/>
+		</div>
+	</div>
+	<div class="controls">
 		<Left on:click={() => handleClick('left')} />
 		<Right on:click={() => handleClick('right')} />
 	</div>
 </section>
 
 <style>
-  section {
-    background-color: white;
-  }
+	section {
+		background-color: white;
+	}
 
-  h2 {
-    color: var(--teal);
-  }
+	h2 {
+		color: var(--teal);
+	}
 
-  .inner {
+	.inner {
 		max-width: 52rem;
 		display: grid;
-    align-items: center;
+		align-items: center;
 		/* gap: var(--size); */
 		margin: auto;
 
@@ -60,7 +67,7 @@
 		}
 	}
 
-  .controls {
+	.controls {
 		display: flex;
 		justify-self: end;
 		gap: var(--size-0-5);
