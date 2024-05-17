@@ -30,6 +30,7 @@
 <Modals>
   <div
 		role="button"
+		tabindex="0"
     slot="backdrop"
     class="backdrop"
     on:click={closeModal}

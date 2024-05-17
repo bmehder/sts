@@ -1,8 +1,8 @@
 @layer misc {
-  .advocate, .our-role {
+  /* .advocate, .our-role {
 		background-position: 70% 0%;
-    border-image: fill 0 linear-gradient(90deg, #000f, transparent);
-	}
+    border-image: fill 20 linear-gradient(-90deg, transparent, #000f);
+	} */
   
   .backdrop {
     position: fixed;
