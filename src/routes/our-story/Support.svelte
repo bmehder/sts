@@ -25,7 +25,7 @@
       width: 100%;
 			height: 100%;
 			background-image: url('/story/support-our-mission.jpg');
-      border-image: fill 0 linear-gradient(90deg, transparent, #000f);
+      /* border-image: fill 0 linear-gradient(90deg, transparent, #000f); */
 			background-size: cover;
       background-repeat: no-repeat;
 		}
