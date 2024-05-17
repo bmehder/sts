@@ -184,7 +184,11 @@
   }
 
   span {
-    color: var(--accent);
+    color: var(--red);
+  }
+
+  label, button {
+    color: #545454;
   }
 
   input, textarea, button {
