@@ -189,6 +189,7 @@
 
   label, button {
     color: #545454;
+    font-weight: 600;
   }
 
   input, textarea, button {
@@ -197,5 +198,10 @@
 
   button {
     padding-block: var(--size);
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
   }
 </style>
