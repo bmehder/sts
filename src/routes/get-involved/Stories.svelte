@@ -55,7 +55,7 @@
 	}
 
 	.inner {
-		max-width: 52rem;
+		/* max-width: 52rem; */
 		display: grid;
 		align-items: center;
 		/* gap: var(--size); */
