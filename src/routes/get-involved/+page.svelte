@@ -44,12 +44,13 @@
 	lead="Vision of Change"
 	main="Imagine a world where every individual has the knowledge, resources, and support to seek help and reclaim their autonomy."
 	description="By getting involved with Share The Signal, you're helping to create that world."
-	src="/resources/group-therapy-session.jpg"
-	width="64"
+	src="/involved/latin-people-training-outdoors.jpg"
+	width="54"
 	isCentered={true}
 	isDownload={false}
 	isBalance={false}
 	leadColor="var(--yellow)"
+	overlayColor="#0006"
 />
 
 <Impact />
