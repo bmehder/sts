@@ -25,6 +25,7 @@
 	main="Be the Force of Change."
 	description="Transform lives by spotting the signs and taking action. Your involvement directly contributes to rescues and recovery — <span>be part of the solution</span>."
 	src="/home/home-hero.jpg"
+	overlayColorEnd="transparent"
 />
 <Intro />
 <Stats />

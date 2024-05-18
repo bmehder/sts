@@ -23,6 +23,8 @@
 	description="You, our valued supporter, have the power to make a difference in the lives of victims and survivors of human trafficking."
   src="/involved/get-involved-hero.jpg"
 	width="32"
+	overlayColorStart="#0006"
+	overlayColorEnd="transparent"
 />
 
 <Understanding />
@@ -50,7 +52,8 @@
 	isDownload={false}
 	isBalance={false}
 	leadColor="var(--yellow)"
-	overlayColor="#0006"
+	overlayColorStart="#0006"
+	overlayColorEnd="#0006"
 />
 
 <Impact />

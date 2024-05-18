@@ -9,13 +9,15 @@
 	export let isDownload = true
 	export let isButton = true
 	export let isBalance = true
-	export let overlayColor = '#0002'
+	// export let overlayColor = '#0002'
+	export let overlayColorStart = '#0002'
+	export let overlayColorEnd = '#0002'
 </script>
 
 <div
 	class="hero full-width"
 	style="background-image: url({src}); text-align:{isCentered &&
-		'center'}; border-image: fill 0 linear-gradient({overlayColor}, {overlayColor});"
+		'center'}; border-image: fill 0 linear-gradient(90deg, {overlayColorStart}, {overlayColorEnd});"
 >
 	<div
 		class="inner fixed-flow"
