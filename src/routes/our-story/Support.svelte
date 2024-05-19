@@ -9,7 +9,7 @@
 			</p>
 			<a href="/" class="button">Donate now</a>
 		</div>
-		<div>
+		<div class="image">
 			<img class="square" src="/story/support-our-mission.jpg" alt="woman's face close up" />
 		</div>
 	</div>
@@ -31,13 +31,21 @@
 
 	.text {
 		padding-inline: var(--size-2);
+
+		@media (width < 48rem) {
+			order: 1;
+		}
+	}
+	
+	.image {
+		padding-inline: var(--size-2);
 	}
 
 	.inner {
 		display: grid;
 		gap: var(--size-3);
 
-		@media (width > 32rem) {
+		@media (width > 48rem) {
 			grid-template-columns: repeat(2, 1fr);
 			align-items: center;
 		}
