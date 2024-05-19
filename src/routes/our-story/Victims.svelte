@@ -17,7 +17,7 @@
   .inner {
     display: grid;
     font-size: var(--size-2);
-    gap: var(--size-2);
+    gap: var(--size-3);
     
     @media (width > 32rem) {
       grid-template-columns: repeat(2, 1fr);

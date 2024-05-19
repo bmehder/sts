@@ -1,16 +1,17 @@
 <section class="space full-width">
 	<div class="inner">
-		<div class="flow text">
-			<h2>Our Role</h2>
-			<p class="h3">
-				<span class="bold">Share The Signal</span> serves as a
-				<span class="bold">compassionate and knowledgeable guide</span> in the fight against
-				human trafficking.
-			</p>
-			<a href="/" class="button">Donate now</a>
-		</div>
 		<div>
-			<img class="square" src="/story/support-our-mission.jpg" alt="woman's face close up" />
+			<img
+        class="square"
+				src="/resources/women-hugging.jpg"
+				alt="two women hugging"
+			/>
+		</div>
+		<div class="flow text">
+			<h2>Become a Powerful Advocate</h2>
+			<p class="h3">
+				By utilizing our resources and taking action, you become a powerful advocate in the fight against human trafficking, contributing to the prevention of exploitation and the empowerment of victims.
+			</p>
 		</div>
 	</div>
 </section>
@@ -37,7 +38,7 @@
 		display: grid;
 		gap: var(--size-3);
 
-		@media (width > 32rem) {
+		@media (width > 48rem) {
 			grid-template-columns: repeat(2, 1fr);
 			align-items: center;
 		}
