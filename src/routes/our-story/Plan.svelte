@@ -4,7 +4,7 @@
 		Our approach involves a simple, step-by-step plan to combat human trafficking and
 		abduction
 	</div>
-	<div class="space auto-grid" style="--min: 12rem">
+	<div class="space cards">
 		<div class="card flow">
 			<div class="h3">#1</div>
 			<p>Educate individuals about distress signals and how to recognize and use them.</p>
@@ -31,9 +31,20 @@
 		text-align: center;
 	}
 
-	h2 {
-		/* color: var(--red); */
-		color: black;
+	@media (width < 49rem) {
+		.space {
+			padding-block: var(--size-3);
+		}
+	}
+
+	.cards {
+		display: grid;
+		gap: var(--size);
+		grid-template-columns: repeat(2, 1fr);
+
+		@media (width > 49rem) {
+			grid-template-columns: repeat(4, 1fr);
+		}
 	}
 
 	.card {
@@ -48,8 +59,10 @@
 			color: var(--yellow);
 		}
 
-		& p {
-			padding: var(--size);
-		}
+		/* & p {
+			@media (width > 49rem) {
+				padding: var(--size);
+			}
+		} */
 	}
 </style>

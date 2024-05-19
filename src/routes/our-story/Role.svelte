@@ -7,7 +7,7 @@
 			/>
 		</div>
 		<div class="flow text">
-			<h2>Our Role</h2>
+			<h2>Support our mission</h2>
 			<p class="h3">
 				Share The Signal serves as your <span class="bold"
 					>guide in the fight against human trafficking</span
@@ -41,7 +41,7 @@
 		display: grid;
 		gap: var(--size-3);
 
-		@media (width > 48rem) {
+		@media (width > 47rem) {
 			grid-template-columns: repeat(2, 1fr);
 			align-items: center;
 		}

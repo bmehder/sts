@@ -7,7 +7,7 @@
     <div class="">
       <h2>Download the Guide</h2>
       <p>Quick start with essential knowledge.</p>
-      <a href="/" class="button">Download now <Download /></a>
+      <a href="/" class="button top">Download now <Download /></a>
     </div>
     <div>
       <ul class="list">
@@ -16,6 +16,7 @@
         <li>Hear from survivors who have utilized our resources to reclaim their lives and find safety.</li>
       </ul>
     </div>
+    <a href="/" class="button bottom">Download now <Download /></a>
   </div>
 </section>
 
@@ -30,21 +31,36 @@
     align-items: center;
     gap: var(--size-2);
 
-    @media (width > 48rem) {
+    @media (width > 49rem) {
       grid-template-columns: repeat(2, 1fr);
+    }
+    @media (width < 49rem) {
+      padding-inline: var(--size-2);
     }
   }
 
   .button {
-    display: inline-flex;
+    display: none;
     align-items: center;
     gap: var(--size-0-5);
     margin-block-start: var(--size-2);
+
+    &.top {
+      @media (width > 49rem) {
+        display: inline-flex;
+      }
+    }
+    &.bottom {
+      @media (width < 49rem) {
+        display: inline-flex;
+        justify-self: center;
+      }
+    }
   }
 
   .list {
     font-size: calc(var(--size) * 1.25);
-    font-weight: 600;
+    /* font-weight: 600; */
     list-style-image: url('/Check.svg');
     
     & li {

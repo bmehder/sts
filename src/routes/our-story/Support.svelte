@@ -1,12 +1,9 @@
 <section class="space full-width">
 	<div class="inner">
 		<div class="flow text">
-			<h2>Our Role</h2>
-			<p class="h3">
-				<span class="bold">Share The Signal</span> serves as a
-				<span class="bold">compassionate and knowledgeable guide</span> in the fight against
-				human trafficking.
-			</p>
+			<div class="h2">
+				<span>Support our mission</span> by donating to combat human trafficking and provide resources to empower victims.
+			</div>
 			<a href="/" class="button">Donate now</a>
 		</div>
 		<div class="image">
@@ -21,18 +18,19 @@
 		color: white;
 	}
 
-	h2 {
-		color: var(--teal);
+	.h2 {
+		line-height: 1.7;
 	}
 
-	.h3 {
-		line-height: 1.7;
+	.h2 span {
+		color: var(--teal);
 	}
 
 	.text {
 		padding-inline: var(--size-2);
 
-		@media (width < 48rem) {
+		@media (width < 49rem) {
+			text-align: center;
 			order: 1;
 		}
 	}
