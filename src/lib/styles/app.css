@@ -13,7 +13,7 @@
   --flow: 1.5em;
 	--plus: '\002B';
 	--minus: '\2212';
-	/* view-transition-name: none; */
+	view-transition-name: none;
 }
 
 @layer app {
