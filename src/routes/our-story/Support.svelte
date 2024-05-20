@@ -19,7 +19,7 @@
 	}
 
 	.h2 {
-		line-height: 1.7;
+		line-height: 1.4;
 	}
 
 	.h2 span {

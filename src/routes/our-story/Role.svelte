@@ -30,7 +30,7 @@
 	}
 
 	.h3 {
-		line-height: 1.7;
+		line-height: 1.4;
 	}
 
 	.text {
