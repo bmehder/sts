@@ -6,7 +6,7 @@
 				Your support empowers victims to seek help, escape dangerous situations, and
 				rebuild their lives free from exploitation.
 			</p>
-			<a href="/" class="button">Donate now</a>
+			<a href="/donate" class="button">Donate now</a>
 		</div>
 		<div class="image-container">
       <img class="back" src="/resources/group-therapy-session.jpg" alt="brunette woman" />
@@ -38,6 +38,11 @@
 	.button {
 		background-color: black;
 		color: white;
+
+		&:hover {
+			background-color: var(--teal);
+			color: black;
+		}
 	}
 
 	img {

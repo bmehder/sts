@@ -4,7 +4,7 @@
 			<div class="h2">
 				<span>Support our mission</span> by donating to combat human trafficking and provide resources to empower victims.
 			</div>
-			<a href="/" class="button">Donate now</a>
+			<a href="/donate" class="button">Donate now</a>
 		</div>
 		<div class="image">
 			<img class="square" src="/story/support-our-mission.jpg" alt="woman's face close up" />

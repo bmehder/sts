@@ -5,7 +5,7 @@
 		outcome.
 	</div>
 	<div class="cta">
-		<a href="/" class="button">Donate now</a> <a class="download-link" href="/">Download free Guide</a>
+		<a href="/donate" class="button">Donate now</a> <a class="download-link" href="/">Download free Guide</a>
 	</div>
 </section>
 
@@ -22,6 +22,11 @@
     align-items: center;
     gap: var(--size-2);
   }
+
+	.button:hover {
+		background-color: var(--teal);
+		color: black;
+	}
   
   .download-link {
     color: white;

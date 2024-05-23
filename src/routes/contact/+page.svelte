@@ -13,9 +13,3 @@
   <h1 class="title">Contact</h1>
   <FormSparkAsync id={data.FORMSPARK_ID} botpoisonKey={data.BOTPOISON_KEY} />
 </section>
-
-<style>
-  h1 {
-    color: var(--teal);
-  }
-</style>

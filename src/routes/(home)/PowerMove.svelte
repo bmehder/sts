@@ -52,7 +52,7 @@
 			<Heart />
 			<h3>Donate</h3>
 			<p>Fuel our fight. Every dollar extends our reach and rescues more lives.</p>
-			<a href="/">Donate now</a>
+			<a href="/donate">Donate now</a>
 		</div>
 
 		<div class="item flow">

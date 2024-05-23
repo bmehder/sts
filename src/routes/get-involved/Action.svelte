@@ -6,17 +6,17 @@
 		<div class="card flow">
 			<div class="h3">#1</div>
 			<p>Volunteer your time and skills to support our mission.</p>
-      <a href="/" class="button">Take the first step now</a>
+      <a href="/donate" class="button">Take the first step now</a>
 		</div>
 		<div class="card flow">
 			<div class="h3">#2</div>
 			<p>Host fundraising events to raise awareness and funds for our cause.</p>
-      <a href="/" class="button">Take the first step now</a>
+      <a href="/donate" class="button">Take the first step now</a>
 		</div>
 		<div class="card flow">
       <div class="h3">#3</div>
 			<p>Advocate for policy changes to protect and empower survivors.</p>
-      <a href="/" class="button">Take the first step now</a>
+      <a href="/donate" class="button">Take the first step now</a>
 		</div>
 	</div>
 </section>
@@ -58,6 +58,11 @@
       background-color: black;
       color: white;
       text-align: center;
+
+      &:hover {
+        background-color: var(--teal);
+        color: black;
+      }
     }
 	}
 </style>

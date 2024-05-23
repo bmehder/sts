@@ -25,6 +25,10 @@
 		line-height: 1.2;
 	}
 
+	.title {
+		color: var(--teal);
+	}
+
 	h2,
 	.h2 {
 		font-size: var(--size-2);

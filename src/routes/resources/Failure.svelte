@@ -3,7 +3,7 @@
     <div class="flow">
       <h2>Avoiding Failure</h2>
       <p>Failure to educate oneself and take action against human trafficking perpetuates its prevalence, leaving victims without access to support and assistance.</p>
-      <a href="/" class="button">Donate now</a>
+      <a href="/donate" class="button">Donate now</a>
     </div>
     <div>
       <img src="/resources/woman-freckles.jpg" alt="woman freckles" />
@@ -33,6 +33,11 @@
   .button {
     background-color: black;
     color: white;
+
+    &:hover {
+      background-color: var(--teal);
+      color: black;
+    }
   }
 
   img {
