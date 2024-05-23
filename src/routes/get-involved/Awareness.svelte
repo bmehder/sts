@@ -25,7 +25,7 @@
 
 	.button:hover {
 		background-color: var(--teal);
-		color: black;
+		color: white;
 	}
   
   .download-link {

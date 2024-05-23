@@ -118,5 +118,9 @@
 
 	.item a {
 		display: inline-block;
+
+		&:hover {
+			text-decoration: none;
+		}
 	}
 </style>

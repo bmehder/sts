@@ -85,4 +85,9 @@
 			color: var(--yellow);
 		}
 	}
+
+	.button:hover {
+		background-color: var(--teal);
+		color: white;
+	}
 </style>

@@ -132,10 +132,9 @@
 	.button {
     background-color: black;
     color: white;
-    
+
     &:hover {
 			background-color: var(--teal);
-			color: black;
 		}
 	}
 	.flex {

@@ -39,6 +39,14 @@
 		padding-inline: var(--size-2);
 	}
 
+	.button {
+
+		&:hover {
+			background-color: var(--teal);
+			color: white;
+		}
+	}
+
 	.inner {
 		display: grid;
 		gap: var(--size-3);

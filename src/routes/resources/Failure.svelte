@@ -36,7 +36,6 @@
 
     &:hover {
       background-color: var(--teal);
-      color: black;
     }
   }
 
