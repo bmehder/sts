@@ -1,7 +1,7 @@
 <script>
   import Instagram from '$lib/icons/Instagram.svelte';
   import Facebook from '$lib/icons/Facebook.svelte';
-  import Twitter from '$lib/icons/Twitter.svelte';
+	import TikTok from '$lib/icons/TikTok.svelte'
 </script>
 
 <footer class="space content-grid full-width">
@@ -12,9 +12,9 @@
       <p style="color: var(--yellow);">Get our emails</p>
       <div class="socials">
         <ul>
+          <li><TikTok /></li>
           <li><Instagram /></li>
           <li><Facebook /></li>
-          <li><Twitter /></li>
         </ul>
       </div>
     </div>
