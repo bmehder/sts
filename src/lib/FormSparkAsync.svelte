@@ -188,7 +188,7 @@
   }
 
   label, button {
-    color: #545454;
+    color: black;
     font-weight: 600;
   }
 

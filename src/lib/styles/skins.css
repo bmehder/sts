@@ -53,7 +53,8 @@
 
 	button,
 	.button {
-		display: inline-block;
+		display: inline-flex;
+		justify-content: center;
 		padding-block: var(--size-0-5);
 		padding-inline: var(--size-1-5);
 		background-color: white;

@@ -1,16 +1,22 @@
 <script>
 	import Hamburger from '$lib/icons/Hamburger.svelte'
 	import Close from '$lib/icons/Close.svelte'
+	import { openModal } from 'svelte-modals'
+	import Modal from '$lib/Modal.svelte'
 
-  export let menuItems = []
+	export let menuItems = []
 	let isOpen = false
 
 	function toggleMenu() {
 		isOpen = !isOpen
 	}
-	
-  function closeMenu() {
+
+	function closeMenu() {
 		isOpen = false
+	}
+
+	function handleClick() {
+		openModal(Modal, { title: 'Alert', message: 'This is an alert' })
 	}
 </script>
 
@@ -23,11 +29,11 @@
 		</div>
 		<div class="hamburger">
 			<button on:click={toggleMenu}>
-        {#if isOpen}
-          <Close />
-        {:else}
-          <Hamburger />
-        {/if}
+				{#if isOpen}
+					<Close />
+				{:else}
+					<Hamburger />
+				{/if}
 			</button>
 		</div>
 	</div>
@@ -35,9 +41,13 @@
 	{#if isOpen}
 		<nav>
 			<ul class="flow">
-        {#each menuItems as { name, url }}        
-  				<li><a on:click={toggleMenu} href="{url}">{name}</a></li>
-        {/each}
+				{#each menuItems as { name, url }}
+					<li><a on:click={toggleMenu} href={url}>{name}</a></li>
+				{/each}
+				<li><a on:click={toggleMenu} href="/donate">Donate</a></li>
+				<li>
+					<button class="a" on:click={handleClick} on:click={toggleMenu}>Video</button>
+				</li>
 			</ul>
 		</nav>
 	{/if}
@@ -57,13 +67,13 @@
 		align-items: center;
 	}
 
-  .logo img {
-    max-width: 10rem;
-  }
+	.logo img {
+		max-width: 10rem;
+	}
 
-  nav {
+	nav {
 		min-height: 100dvh;
-  }
+	}
 
 	ul {
 		list-style: none;
@@ -75,15 +85,18 @@
 	}
 
 	a {
-    display: block;
+		display: block;
 		color: black;
-    text-decoration: none;
+		text-decoration: none;
 	}
 
-  button {
-    padding: 0;
-    background: none;
-    border: none;
-    box-shadow: none;
-  }
+	button, .a {
+		padding: 0;
+		background: none;
+		color: black;
+		border: none;
+		box-shadow: none;
+		font-weight: normal;
+		line-height: normal;
+	}
 </style>

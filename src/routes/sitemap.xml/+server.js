@@ -12,7 +12,7 @@ const site = 'https://sharethesignal.com'
 // }
 
 const otherPages = [
-  // { name: 'Frank Curvin, MD', url: '/about-restore-first-health/frank-curvin-md/' },
+  // { name: 'Donate', url: '/donate/' },
 ]
 
 const createSitemap = ({ site, pages, posts }) => {
@@ -81,7 +81,6 @@ const options = {
   // posts: await getPosts(),
 }
 
-/** @type {import('./$types').RequestHandler} */
 export async function GET() {
   const body = createSitemap(options)
   const response = new Response(body)
