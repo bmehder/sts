@@ -21,6 +21,10 @@
     justify-content: center;
     align-items: center;
     gap: var(--size-2);
+
+		@media (width < 32rem) {
+			flex-direction: column;
+		}
   }
 
 	.button:hover {

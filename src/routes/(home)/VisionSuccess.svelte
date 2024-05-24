@@ -55,13 +55,15 @@
     gap: var(--size-0-5);
     font-weight: 400;
     
-    @media (width > 32rem) {
+    @media (width > 40rem) {
       grid-template-columns: repeat(2, 1fr);
     }
   }
 
   .grid div {
     display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 2;
     aspect-ratio: 4/3;
     padding: var(--size-4);
     background-repeat: no-repeat;
@@ -70,6 +72,10 @@
     color: white;
     border-image: fill 0 linear-gradient(#0005, #0009);
     box-shadow: 0 1px 13px #e9e9e9;
+
+    @media (width < 32rem) {
+      padding: var(--size-2);
+    }
   }
 
   .grid div h3 {

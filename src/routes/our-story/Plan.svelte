@@ -59,10 +59,8 @@
 			color: var(--yellow);
 		}
 
-		/* & p {
-			@media (width > 49rem) {
-				padding: var(--size);
-			}
-		} */
+		@media (width < 32rem) {
+			padding: var(--size);
+		}
 	}
 </style>

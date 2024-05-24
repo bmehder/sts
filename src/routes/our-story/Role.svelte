@@ -41,7 +41,7 @@
 		display: grid;
 		gap: var(--size-3);
 
-		@media (width > 47rem) {
+		@media (width > 49rem) {
 			grid-template-columns: repeat(2, 1fr);
 			align-items: center;
 		}

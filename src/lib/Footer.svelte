@@ -27,7 +27,7 @@
         <button>Sign up</button>
       </form>
     </div>
-    <div class="copyright">Copyright 2024 Share The Signal. All Rights Reserved.</div>
+    <div class="copyright">© Copyright 2024 Share The Signal. All Rights Reserved.</div>
   </div>
 </footer>
 

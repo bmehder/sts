@@ -19,10 +19,10 @@ export default [
 		name: 'Resources',
 		url: '/resources/',
 	},
-	{
-		name: 'Blog',
-		url: '/blog/',
-	},
+	// {
+	// 	name: 'Blog',
+	// 	url: '/blog/',
+	// },
 	{
 		name: 'Contact',
 		url: '/contact/',

@@ -5,6 +5,12 @@
 	import Heart from '$lib/icons/Heart.svelte'
 	import Share from '$lib/icons/Share.svelte'
 	import Shield from '$lib/icons/Shield.svelte'
+	import { openModal } from 'svelte-modals'
+  import Modal from '$lib/Modal.svelte'
+
+	function handleClick() {
+    openModal(Modal, { title: "Alert", message: "This is an alert" })
+  }
 </script>
 
 <section class="space">
@@ -23,7 +29,7 @@
 			<Eyes />
 			<h3>Spot the Signs</h3>
 			<p class="balance">Recognize distress signals in everyday encounters.</p>
-			<a href="/">View video here</a>
+			<button class="a" href="/" on:click={handleClick}>View video here</button>
 		</div>
 	</div>
 </section>
@@ -61,7 +67,8 @@
 			<p class="balance">
 				Blast our message on your social. More eyes = more awareness = more lives saved.
 			</p>
-			<a href="/">Share on your social</a>
+			<!-- <a href="/">Share on your social</a> -->
+			<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//sharethesignal.com" target="_blank">Share on Facebook</a>
 		</div>
 	</div>
 </section>
@@ -118,6 +125,17 @@
 
 	.item a {
 		display: inline-block;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.a {
+		padding: 0;
+		font-weight: normal;
+		box-shadow: none;
+		text-decoration: underline;
 
 		&:hover {
 			text-decoration: none;
