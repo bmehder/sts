@@ -28,7 +28,7 @@
 			</a>
 		</div>
 		<div class="hamburger">
-			<button on:click={toggleMenu}>
+			<button on:click={toggleMenu} aria-label="Open Navigation">
 				{#if isOpen}
 					<Close />
 				{:else}
