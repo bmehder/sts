@@ -79,6 +79,7 @@
 
 	input,
 	textarea {
+		min-width: 0;
 		padding: var(--size-0-5);
 	}
 

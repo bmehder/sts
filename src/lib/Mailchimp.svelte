@@ -1,8 +1,8 @@
 <div class="container-wrap">
 	<form>
-		<input type="text" name="first-name" placeholder="First Name..." />
-		<input type="email" name="email" placeholder="Email Address..." />
-		<input type="text" name="last-name" placeholder="Last Name..." />
+		<input type="text" name="first-name" placeholder="First name..." />
+		<input type="text" name="last-name" placeholder="Last name..." />
+		<input type="email" name="email" placeholder="Email address..." />
 		<button>Sign up</button>
 	</form>
 </div>
