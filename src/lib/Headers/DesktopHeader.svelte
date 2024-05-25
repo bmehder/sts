@@ -42,6 +42,10 @@
     background-color: white;
     border-bottom: 1px solid #d9d9d9;
   }
+
+  .logo img {
+    max-width: 14rem;
+  }
   
   .inner {
     display: flex;
