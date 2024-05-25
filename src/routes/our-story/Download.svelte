@@ -7,7 +7,7 @@
     <div class="">
       <h2>Download the Guide</h2>
       <p>Quick start with essential knowledge.</p>
-      <a href="/" class="button top">Download now <Download /></a>
+      <a href="/guide-share-the-signal.pdf" target="_blank" class="button top">Download now <Download /></a>
     </div>
     <div>
       <ul class="list">
@@ -44,6 +44,10 @@
     align-items: center;
     gap: var(--size-0-5);
     margin-block-start: var(--size-2);
+
+    &:hover {
+      background-color: #eee;
+    }
 
     &.top {
       @media (width > 49rem) {

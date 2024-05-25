@@ -43,7 +43,7 @@
     margin-block-start: auto;
   }
 
-  .italic {
+  .content :global(.italic) {
     font-weight: 300;
     font-style: italic;
   }

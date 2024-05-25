@@ -11,7 +11,7 @@
       <div class="card flow">
         <div class="h3">{title}</div>
         <p>{content}</p>
-        <a href="/donate" class="button">Take the first step now</a>
+        <a href="/contact" class="button">Take the first step now</a>
       </div>
     {/each}
 	</div>

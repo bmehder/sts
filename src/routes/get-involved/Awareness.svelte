@@ -5,7 +5,7 @@
 		outcome.
 	</div>
 	<div class="cta">
-		<a href="/donate" class="button">Donate now</a> <a class="download-link" href="/">Download free Guide</a>
+		<a href="/donate" class="button">Donate now</a> <a class="download-link" href="/guide-share-the-signal.pdf" target="_blank">Download free Guide</a>
 	</div>
 </section>
 
@@ -34,5 +34,9 @@
   
   .download-link {
     color: white;
+
+		&:hover {
+			text-decoration: none;
+		}
   }
 </style>

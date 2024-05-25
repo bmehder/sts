@@ -32,7 +32,7 @@
 	</div>
 	{#if isDownload}
 		<div class="free-guide">
-			<a href="/">DOWNLOAD FREE GUIDE ON SIGNS OF MODERN DAY TRAFFICKING -</a> its not what
+			<a href="/guide-share-the-signal.pdf" target="_blank">DOWNLOAD FREE GUIDE ON SIGNS OF MODERN DAY TRAFFICKING -</a> its not what
 			you think
 		</div>
 	{/if}
@@ -83,6 +83,10 @@
 
 		& a {
 			color: var(--yellow);
+
+			&:hover {
+				color: white;
+			}
 		}
 	}
 

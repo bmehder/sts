@@ -22,7 +22,7 @@
 			<Downloads />
 			<h3>Download the Guide</h3>
 			<p>Quick start with essential knowledge.</p>
-			<a href="/">Download here</a>
+			<a href="/guide-share-the-signal.pdf" target="_blank">Download here</a>
 		</div>
 
 		<div class="item flow">

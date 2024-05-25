@@ -3,7 +3,7 @@
 		Take the first step in combating human trafficking by accessing our resources and educating yourself about this critical issue.
 	</div>
 	<div class="cta">
-		<a href="/contact" class="button">Contact us</a> <a class="download-link" href="/">Download free Guide</a>
+		<a href="/contact" class="button">Contact us</a> <a class="download-link" href="/guide-share-the-signal.pdf" target="_blank">Download free Guide</a>
 	</div>
 </section>
 
@@ -42,5 +42,9 @@
   
   .download-link {
     color: black;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 </style>
