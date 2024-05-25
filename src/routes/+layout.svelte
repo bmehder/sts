@@ -19,7 +19,7 @@
 
 <Header {menuItems} />
 
-<main class="content-grid">
+<main id="main-content" class="content-grid">
 	<slot />
 </main>
 

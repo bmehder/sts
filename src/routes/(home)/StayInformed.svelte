@@ -1,3 +1,7 @@
+<script>
+	import Mailchimp from '$lib/Mailchimp.svelte'
+</script>
+
 <section class="full-width space">
   <div class="inner">
     <div class="flow">
@@ -5,12 +9,7 @@
       <p>Sign up for our newsletter to get the latest on our fight against human trafficking, success stories, and how you can play a part in saving lives.</p>
     </div>
     <div>
-      <form>
-        <input type="text" name="first-name" placeholder="First Name...">
-        <input type="email" name="email" placeholder="Email Address...">
-        <input type="text" name="last-name" placeholder="Last Name...">
-        <button>Sign up</button>
-      </form>
+      <Mailchimp />
     </div>
   </div>
   <div class="together flow balance">
@@ -39,19 +38,6 @@
     @media (width > 32rem) {
       grid-template-columns: repeat(2, 1fr);
     }
-  }
-
-  form {
-    display: grid;
-    gap: var(--size-0-5);
-    
-    @media (width > 40rem) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  form > * {
-    align-self: end;
   }
 
   .together {

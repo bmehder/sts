@@ -3,7 +3,8 @@
 @layer skins {
 	:root {
 		/* --teal: #93cad4; */
-		--teal: hsl(189, 43%, 60%);
+		/* --teal: hsl(189, 43%, 60%); */
+		--teal: hsl(189, 43%, 55%);
 		--yellow: #efb812;
 		--red: #c71019;
 	}

@@ -64,8 +64,8 @@
     display: grid;
     grid-template-rows: subgrid;
     grid-row: span 2;
-    aspect-ratio: 4/3;
-    padding: var(--size-4);
+    padding-block: var(--size-6);
+    padding-inline: var(--size-4);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -8,9 +8,9 @@
   <p>Take Action Now. Your Move Can Change the Game.</p>
   <div class="inner">
     <ul>
-      <li><a href="/"><TikTok /></a></li>
-      <li><a href="/"><Instagram /></a></li>
-      <li><a href="/"><Facebook /></a></li>
+      <li><TikTok /></li>
+      <li><Instagram /></li>
+      <li><Facebook /></li>
     </ul>
   </div>
 </div>

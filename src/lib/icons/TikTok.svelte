@@ -1,4 +1,4 @@
-<a class="social" href="https://www.tiktok.com/@sharethesignal" target="_blank">
+<a class="social" href="https://www.tiktok.com/@sharethesignal" target="_blank" aria-label="TikTok">
 	<svg
 		width="44"
 		height="44"

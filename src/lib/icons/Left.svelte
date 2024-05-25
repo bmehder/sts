@@ -1,4 +1,4 @@
-<button on:click>
+<button on:click aria-label="previous">
   <svg
     width="16"
     height="16"
@@ -23,5 +23,13 @@
 		aspect-ratio: 1;
 		border: 1px solid;
 		border-radius: 50%;
+
+    &:hover {
+			background-color: var(--teal);
+		}
+		
+		&:hover svg path {
+			fill: white;
+		}
 	}
 </style>

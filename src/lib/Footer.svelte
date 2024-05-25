@@ -2,6 +2,7 @@
   import Instagram from '$lib/icons/Instagram.svelte';
   import Facebook from '$lib/icons/Facebook.svelte';
 	import TikTok from '$lib/icons/TikTok.svelte'
+	import Mailchimp from '$lib/Mailchimp.svelte'
 </script>
 
 <footer class="space content-grid full-width">
@@ -20,12 +21,7 @@
     </div>
     <div class="flow">
       <div class="h2">Stay informed and join the fight against human trafficking.</div>
-      <form>
-        <input type="text" name="first-name" placeholder="First Name...">
-        <input type="email" name="email" placeholder="Email Address...">
-        <input type="text" name="last-name" placeholder="Last Name...">
-        <button>Sign up</button>
-      </form>
+      <Mailchimp />
     </div>
     <div class="copyright">© Copyright 2024 Share The Signal. All Rights Reserved.</div>
   </div>
@@ -49,19 +45,6 @@
     display: flex;
     align-items: center;
     gap: var(--size-0-5);
-  }
-
-  form {
-    display: grid;
-    gap: var(--size-0-5);
-    
-    @media (width > 40rem) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  form > * {
-    align-self: end;
   }
 
   .copyright {

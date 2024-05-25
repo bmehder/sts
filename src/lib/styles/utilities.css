@@ -1,4 +1,8 @@
 @layer utilities {
+	.container-wrap {
+		container-type: inline-size;
+	}
+
 	.block {
 		display: block;
 	}

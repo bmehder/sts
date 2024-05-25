@@ -1,4 +1,4 @@
-<a class="social" href="https://www.instagram.com/sharethesignalnow/" target="_blank">
+<a class="social" href="https://www.instagram.com/sharethesignalnow/" target="_blank" aria-label="Instagram">
 	<svg
 		width="43"
 		height="43"

@@ -3,6 +3,7 @@
   import Play from '$lib/icons/Play.svelte'
   import { openModal } from 'svelte-modals'
   import Modal from '$lib/Modal.svelte'
+	import SkipNav from '$lib/SkipNav.svelte'
 
   export let menuItems = []
   
@@ -12,6 +13,7 @@
 </script>
 
 <header class="content-grid full-width">
+  <SkipNav />
   <div class="inner">
     <div class="logo">
       <a href="/"><img src="/logo.png" alt="Share the Signal Logo"></a>

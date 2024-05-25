@@ -31,7 +31,7 @@
 
 <style>
 	.quote {
-		height: 150px;
+		height: 180px;
 		overflow: hidden;
 	}
 

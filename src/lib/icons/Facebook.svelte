@@ -2,6 +2,7 @@
 	class="social"
 	href="https://www.facebook.com/TheSignalHumanTrafficking"
 	target="_blank"
+	aria-label="Facebook"
 >
 	<svg
 		width="43"
