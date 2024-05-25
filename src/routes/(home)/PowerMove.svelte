@@ -67,7 +67,6 @@
 			<p class="balance">
 				Blast our message on your social. More eyes = more awareness = more lives saved.
 			</p>
-			<!-- <a href="/">Share on your social</a> -->
 			<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//sharethesignal.com" target="_blank">Share on Facebook</a>
 		</div>
 	</div>

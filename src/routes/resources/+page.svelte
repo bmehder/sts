@@ -5,9 +5,10 @@
 	import Steps from './Steps.svelte'
 	import Combating from './Combating.svelte'
 	import Advocate from './Advocate.svelte'
-	// import TwoColumn from '$lib/TwoColumn.svelte'
 	import Failure from './Failure.svelte'
 	import Difference from './Difference.svelte'
+
+	export let data
 </script>
 
 <svelte:head>
@@ -31,16 +32,9 @@
 
 <Explore />
 
-<Steps />
+<Steps items={data.steps} />
 
 <Combating />
-
-<!-- <TwoColumn
-	title="Become a Powerful Advocate"
-	content="By utilizing our resources and taking action, you become a powerful advocate in the fight against human trafficking, contributing to the prevention of exploitation and the empowerment of victims."
-	src="/resources/women-hugging.jpg"
-	className="advocate"
-/> -->
 
 <Advocate />
 

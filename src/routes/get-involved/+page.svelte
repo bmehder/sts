@@ -1,7 +1,6 @@
 <script>
 	import Hero from '$lib/Hero.svelte'
 	import Understanding from './Understanding.svelte'
-	// import TwoColumn from '$lib/TwoColumn.svelte'
 	import Role from './Role.svelte'
 	import Collaboration from './Collaboration.svelte'
 	import Action from './Action.svelte'
@@ -30,18 +29,11 @@
 
 <Understanding />
 
-<!-- <TwoColumn
-	title="Our Role"
-	content="Share The Signal serves as your <span class='bold'>guide in the fight against human trafficking</span>, offering empathy and authority in addressing this critical issue.<br /><br />We understand the challenges and complexities victims face, and we're here to provide support and resources to help them find safety."
-	src="/involved/sad-woman.jpg"
-	className="our-role"
-/> -->
-
 <Role />
 
 <Collaboration />
 
-<Action />
+<Action items={data.actions} />
 
 <Download />
 
@@ -68,6 +60,5 @@
 <style>
 	:global(.image) {
 		background-position: 75% 0%;
-    /* border-image: fill 0 linear-gradient(90deg, #000f, transparent); */
 	}
 </style>

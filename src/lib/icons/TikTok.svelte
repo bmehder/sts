@@ -17,10 +17,6 @@
 	.social svg {
 		background-color: white;
 		border-radius: 50%;
-
-		&:hover {
-			background-color: black;
-		}
 	}
 
 	.social:hover path {

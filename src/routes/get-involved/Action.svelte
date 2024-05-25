@@ -1,23 +1,19 @@
+<script>
+  export let items = []
+</script>
+
 <section class="space full-width flow">
   <h2>Take Action Today</h2>
   <p class="tagline">Here's a simple, step-by-step plan for how you can get involved and make a difference</p>
 
   <div class="auto-grid">
-		<div class="card flow">
-			<div class="h3">#1</div>
-			<p>Volunteer your time and skills to support our mission.</p>
-      <a href="/donate" class="button">Take the first step now</a>
-		</div>
-		<div class="card flow">
-			<div class="h3">#2</div>
-			<p>Host fundraising events to raise awareness and funds for our cause.</p>
-      <a href="/donate" class="button">Take the first step now</a>
-		</div>
-		<div class="card flow">
-      <div class="h3">#3</div>
-			<p>Advocate for policy changes to protect and empower survivors.</p>
-      <a href="/donate" class="button">Take the first step now</a>
-		</div>
+    {#each items as { title, content } }    
+      <div class="card flow">
+        <div class="h3">{title}</div>
+        <p>{content}</p>
+        <a href="/donate" class="button">Take the first step now</a>
+      </div>
+    {/each}
 	</div>
 </section>
 

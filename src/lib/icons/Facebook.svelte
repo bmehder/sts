@@ -22,10 +22,6 @@
   svg {
 		background-color: white;
 		border-radius: 50%;
-
-    &:hover {
-      background-color: var(--dark);
-    }
 	}
 
 	.social:hover path {

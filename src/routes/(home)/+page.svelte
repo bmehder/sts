@@ -29,10 +29,10 @@
 	overlayColorEnd="transparent"
 />
 <Intro />
-<Stats />
+<Stats items={data.stats} />
 <PowerMove />
 <TakeAction />
-<VisionSuccess />
+<VisionSuccess items={data.visionSuccess} />
 <BetterWorld />
 <WhatHappens />
 <LivesChanged quotes={data.quotes} />

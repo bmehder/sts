@@ -1,3 +1,7 @@
+<script>
+	export let items = []
+</script>
+
 <section class="space full-width flow">
 	<h2>The Plan</h2>
 	<div class="h2 balance">
@@ -5,22 +9,12 @@
 		abduction
 	</div>
 	<div class="space cards">
-		<div class="card flow">
-			<div class="h3">#1</div>
-			<p>Educate individuals about distress signals and how to recognize and use them.</p>
-		</div>
-		<div class="card flow">
-			<div class="h3">#2</div>
-			<p>Provide resources and support to victims seeking assistance.</p>
-		</div>
-		<div class="card flow">
-			<div class="h3">#3</div>
-			<p>Collaborate with law enforcement and other organizations to ensure victims' safety and recovery.</p>
-		</div>
-		<div class="card flow">
-			<div class="h3">#4</div>
-			<p>Advocate for policy changes to prevent human trafficking and support survivors.</p>
-		</div>
+		{#each items as { title, content }}
+			<div class="card flow">
+				<div class="h3">{title}</div>
+				<p>{content}</p>
+			</div>
+		{/each}
 	</div>
 </section>
 

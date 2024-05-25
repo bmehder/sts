@@ -16,7 +16,7 @@
 
 <style>
 	.social:hover path {
-		fill: black;
+		fill: white;
 	}
 
 	.social:hover circle {
