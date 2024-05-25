@@ -91,9 +91,12 @@
 	}
 
 	button, .a {
+		display: block;
+		width: 100%;
 		padding: 0;
 		background: none;
 		color: black;
+		text-align: left;
 		border: none;
 		box-shadow: none;
 		font-weight: normal;
