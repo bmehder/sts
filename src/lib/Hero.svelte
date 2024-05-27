@@ -27,7 +27,7 @@
 		<div class="main" class:balance={isBalance}>{main}</div>
 		<div class="description">{@html description}</div>
 		{#if isButton}
-			<a href="/donate" class="button">Donate now</a>
+			<a href="/donate" class="button" target="_blank">Donate now</a>
 		{/if}
 	</div>
 	{#if isDownload}

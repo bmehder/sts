@@ -60,27 +60,27 @@ export async function load() {
 		],
 		stats: [
 			{
-				title: '40.3 M',
+				title: '40.3',
 				content: `An estimated 40.3 million people are in <span class="bold">modern slavery worldwide</span>, including forced labor, forced marriage, and human trafficking. <span class="italic">(International Labour Organization, 2017)</span>`,
 			},
 			{
-				title: '24.9 M',
+				title: '24.9',
 				content: `About 24.9 million <span class="bold">people are in forced labor</span>, with 16 million people exploited in the private sector such as domestic work, construction, and agriculture. <span class="italic">(ILO, 2017)</span>`,
 			},
 			{
-				title: '4.8 M',
+				title: '4.8',
 				content: `4.8 million people are <span class="bold">forced into sexual exploitation</span>. <span class="italic">(ILO, 2017)</span>`,
 			},
 			{
-				title: '10 M',
+				title: '10',
 				content: `Over 10 million <span class="bold">children</span> are in some form of <span class="bold">modern slavery</span>. <span class="italic">(United Nations Children's Fund)</span>`,
 			},
 			{
-				title: '15.4 M',
+				title: '15.4',
 				content: `An estimated 15.4 million people were living in <span class="bold">forced marriages</span> as of 2016. <span class="italic">(ILO, 2017)</span>`,
 			},
 			{
-				title: '$150 B',
+				title: '150',
 				content: `<span class="bold">Human trafficking is a lucrative industry</span>, generating an estimated $150 billion in illegal profits each year. <span class="italic">(ILO)</span>`,
 			},
 		],

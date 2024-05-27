@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://sharethesignal.com/sitemap.xml

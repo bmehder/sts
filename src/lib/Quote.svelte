@@ -21,9 +21,11 @@
 		<div
 			class="flow"
 			in:fly={direction === 'forward' ? transitions.forward.in : transitions.reverse.in}
-			out:fly={direction === 'reverse' ? transitions.reverse.out : transitions.forward.out}
+			out:fly={direction === 'reverse'
+				? transitions.reverse.out
+				: transitions.forward.out}
 		>
-			<p>"{quote}"</p>
+			<p class="italic">"{quote}"</p>
 			<div class="cite">{cite}</div>
 		</div>
 	{/key}
@@ -33,13 +35,10 @@
 	.quote {
 		height: 180px;
 		overflow: hidden;
-	}
 
-	.quote p {
-		font-style: italic;
-	}
-
-	.quote .cite {
-		color: var(--red);
+		& .cite {
+			color: var(--red);
+			text-align: right;
+		}
 	}
 </style>
