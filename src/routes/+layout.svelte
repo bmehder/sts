@@ -12,8 +12,11 @@
 	import Footer from '$lib/Footer.svelte'
 	import BackToTop from '$lib/BackToTop.svelte'
   import { Modals, closeModal } from 'svelte-modals'
-
 </script>
+
+<svelte:head>
+	<script defer data-domain="sharethesignal.com" src="https://plausible.io/js/script.js"></script>
+</svelte:head>
 
 <ViewTransition />
 
