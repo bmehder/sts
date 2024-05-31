@@ -1,13 +1,13 @@
 <script>
 	import { tweened } from 'svelte/motion'
-	import { cubicOut } from 'svelte/easing'
+	import { cubicIn } from 'svelte/easing'
 	import { observer } from '$lib/utils.js'
 
 	export let items = []
 
 	const tweenOptions = {
 		duration: 2000,
-		easing: cubicOut,
+		easing: cubicIn,
 	}
 
 	const value0 = tweened(0, tweenOptions)

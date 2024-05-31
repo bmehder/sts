@@ -187,11 +187,14 @@
     color: var(--red);
   }
 
-  label, button {
-    color: black;
-    font-weight: 600;
+  label {
+    margin-block-end: var(--size-0-5);
   }
 
+  label, button {
+    color: black;
+  }
+  
   input, textarea, button {
     border: 1px solid #d9d9d9;
   }
