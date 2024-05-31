@@ -1,8 +1,8 @@
 <div class="container-wrap">
-	<form>
-		<input type="text" name="first-name" placeholder="First name..." />
-		<input type="text" name="last-name" placeholder="Last name..." />
-		<input type="email" name="email" placeholder="Email address..." />
+	<form action="https://sharethesignal.us13.list-manage.com/subscribe/post?u=8afd1aad99227bd12d71f0187&amp;id=20dd1efacc&amp;f_id=00f153e2f0" method="post">
+		<input type="text" name="FNAME" placeholder="First name..." />
+		<input type="text" name="LNAME" placeholder="Last name..." />
+		<input type="email" name="EMAIL" placeholder="Email address..." />
 		<button>Sign up</button>
 	</form>
 </div>
