@@ -16,10 +16,11 @@
 </script>
 
 <svelte:head>
-	<title>Home - Fight Human Trafficking, Save Lives – Share The Signal</title>
+	<title>Home - The Unknowns of Human Trafficking – Share The Signal</title>
 	<meta
 		name="description"
-		content="At Share The Signal, our mission is clear: to end human trafficking by empowering you with knowledge, tools, and the courage to act when you see the signs."
+		content="At Share The Signal, we provide preventative education on awareness and understanding of grooming, the often-overlooked precursor to human trafficking.
+"
 	/>
 </svelte:head>
 

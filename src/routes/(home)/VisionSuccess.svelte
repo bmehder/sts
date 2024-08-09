@@ -8,7 +8,7 @@
 			Imagine if the number of human trafficking victims were cut by 10%, 40%, or
 			even 60%.
 		</h2>
-		<h3 class="balance" style="color: var(--teal);">
+		<h3 class="balance" style="color: `var(--teal);">
 			Imagine if your daughter knew the signs BEFORE she mistakenly was placed in a
 			dangerous situation that could ruin her life.
 		</h3>
