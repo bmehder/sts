@@ -17,15 +17,17 @@
 
 <svelte:head>
 	<title>Home - Fight Human Trafficking, Save Lives – Share The Signal</title>
-	<meta name="description" content="At Share The Signal, our mission is clear: to end human trafficking by empowering you with knowledge, tools, and the courage to act when you see the signs.">
+	<meta
+		name="description"
+		content="At Share The Signal, our mission is clear: to end human trafficking by empowering you with knowledge, tools, and the courage to act when you see the signs."
+	/>
 </svelte:head>
 
 <Hero
-	lead="Fight Trafficking, Save Lives:"
-	main="Be the Force of Change."
-	description="Transform lives by spotting the signs and taking action. Your involvement directly contributes to rescues and recovery — <span>be part of the solution</span>."
+	main="Unmasking the Hidden Threats of <span style='color: var(--teal);'>Grooming</span>"
+	description="The often-overlooked precursor to human trafficking."
 	src="/home/home-hero.jpg"
-	overlayColorStart="#0006"
+	overlayColorStart="#000a"
 	overlayColorEnd="transparent"
 />
 <Intro />

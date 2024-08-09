@@ -23,8 +23,8 @@
 		class="inner fixed-flow"
 		style="max-width: {width}rem; margin-inline:{isCentered && 'auto'};"
 	>
-		<div class="lead" style="color: {leadColor};">{lead}</div>
-		<div class="main" class:balance={isBalance}>{main}</div>
+		<!-- <div class="lead" style="color: {leadColor};">{lead}</div> -->
+		<div class="main" class:balance={isBalance}>{@html main}</div>
 		<div class="description">{@html description}</div>
 		{#if isButton}
 			<a href="/donate" class="button" target="_blank">Donate now</a>
@@ -32,8 +32,9 @@
 	</div>
 	{#if isDownload}
 		<div class="free-guide">
-			<a href="/guide-share-the-signal.pdf" target="_blank">DOWNLOAD FREE GUIDE ON SIGNS OF MODERN DAY TRAFFICKING -</a> its not what
-			you think
+			<a href="/guide-share-the-signal.pdf" target="_blank"
+				>DOWNLOAD FREE GUIDE ON SIGNS OF MODERN DAY TRAFFICKING
+			</a> – it's not what you think
 		</div>
 	{/if}
 </div>
@@ -80,6 +81,7 @@
 		padding-block-start: var(--size-4);
 		color: white;
 		font-weight: 600;
+		line-height: 1.5;
 
 		& a {
 			color: var(--yellow);

@@ -5,10 +5,14 @@
 <section class="space full-width">
 	<div class="intro flow">
 		<h2 class="balance">
-			Imagine a world where every attempt to enslave and exploit meets an unbreakable wall
-			of informed guardians.<br /><span>That's the world you're helping to build.</span>
+			Imagine if the number of human trafficking victims were cut by 10%, 40%, or
+			even 60%.
 		</h2>
-		<p>Here's the vision of success, painted with the strokes of your actions:</p>
+		<h3 class="balance" style="color: var(--teal);">
+			Imagine if your daughter knew the signs BEFORE she mistakenly was placed in a
+			dangerous situation that could ruin her life.
+		</h3>
+		<p>This is what we’re doing by simply educating ourselves.</p>
 	</div>
 
 	<div class="grid">
