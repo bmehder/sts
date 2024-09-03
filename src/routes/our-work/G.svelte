@@ -23,10 +23,6 @@
 </section>
 
 <style>
-	section {
-		text-align: center;
-	}
-
 	h2 {
 		color: var(--red);
 	}

@@ -1,5 +1,5 @@
 <section class="full-width">
-	<div class="inner flow space h3">
+	<div class="inner flow space">
 		<h2>Where We’re Going</h2>
 		<p>
 			The fight against trafficking is far from over, and we’re just getting started.
@@ -34,12 +34,17 @@
 
 <style>
 	section {
-		background-color: var(--yellow);
+		background-color: var(--teal);
 		color: white;
-		/* text-align: center; */
+		font-size: calc(var(--size) * 1.2);
+		line-height: 1.5;
 	}
-
+	/* 
 	h2 {
 		text-align: center;
+	} */
+
+	.list > * + * {
+		margin-block-start: var(--size-2);
 	}
 </style>

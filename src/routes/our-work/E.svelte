@@ -17,9 +17,9 @@
 </section>
 
 <style>
-	section {
+	/* section {
 		text-align: center;
-	}
+	} */
 
 	h2 {
 		color: var(--teal);
