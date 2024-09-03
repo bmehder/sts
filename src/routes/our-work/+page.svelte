@@ -1,6 +1,5 @@
 <script>
 	import Title from './Title.svelte'
-	import A from './A.svelte'
 	import B from './B.svelte'
 	import C from './C.svelte'
 	import D from './D.svelte'
@@ -16,7 +15,6 @@
 </svelte:head>
 
 <Title />
-<A />
 <B />
 <C />
 <D />

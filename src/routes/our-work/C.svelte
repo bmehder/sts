@@ -1,6 +1,11 @@
-<section class="">
+<script>
+	import Sveltetube from '$lib/Sveltetube.svelte'
+</script>
+
+<section>
 	<div class="inner space flow">
 		<h2>A Short Film with a Lasting Impact</h2>
+		<Sveltetube id="t1tIY5bgYto" />
 		<p class="h3">
 			The short film they produced wasn’t just another piece of media; it was a deep
 			dive into the hidden world of human trafficking, exposing the grooming
@@ -25,29 +30,11 @@
 			trafficking—insights that are often overlooked by even the most seasoned law
 			enforcement agencies.
 		</p>
-
-		<a href="" class="button">Watch Our Award-Winning Film</a>
 	</div>
 </section>
 
 <style>
-	section {
-		padding-block: var(--size);
-		text-align: center;
-	}
-
 	h2 {
 		color: var(--red);
-	}
-
-	p {
-		max-width: 58rem;
-		margin-inline: auto;
-		text-wrap: pretty;
-	}
-
-	.button {
-		background-color: var(--teal);
-		color: white;
 	}
 </style>

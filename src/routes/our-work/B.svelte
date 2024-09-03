@@ -31,15 +31,9 @@
 		padding-block: var(--size);
 		background-color: var(--teal);
 		color: white;
-		text-align: center;
-	}
-
-	p {
-		max-width: 58rem;
-		margin-inline: auto;
 	}
 
 	.button {
-		background-color: var(--yellow);
+		background-color: white;
 	}
 </style>
