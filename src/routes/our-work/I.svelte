@@ -18,6 +18,10 @@
 		color: var(--red);
 	}
 
+	.h3 {
+		line-height: 1.5;
+	}
+
 	a {
 		background-color: var(--teal);
 		color: white;

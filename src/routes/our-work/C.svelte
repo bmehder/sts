@@ -37,4 +37,8 @@
 	h2 {
 		color: var(--red);
 	}
+
+	.h3 {
+		line-height: 1.4;
+	}
 </style>

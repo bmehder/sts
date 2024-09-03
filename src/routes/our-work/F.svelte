@@ -20,5 +20,6 @@
 
 	.h3 {
 		text-wrap: balance;
+		line-height: 1.4;
 	}
 </style>

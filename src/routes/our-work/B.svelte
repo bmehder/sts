@@ -33,6 +33,10 @@
 		color: white;
 	}
 
+	.h3 {
+		line-height: 1.4;
+	}
+
 	.button {
 		background-color: white;
 	}

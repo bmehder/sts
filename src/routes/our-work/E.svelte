@@ -17,11 +17,11 @@
 </section>
 
 <style>
-	/* section {
-		text-align: center;
-	} */
-
 	h2 {
 		color: var(--teal);
+	}
+
+	.h3 {
+		line-height: 1.4;
 	}
 </style>
