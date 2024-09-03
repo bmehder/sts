@@ -1,0 +1,21 @@
+<section>
+	<div class="inner flow space">
+		<h2>Together, we can make a difference.</h2>
+		<p class="h3">
+			By joining forces, we can ensure that more people recognize the signs of
+			trafficking, more communities are educated, and more lives are saved.
+		</p>
+		<a href="/donate" class="button">Join the Movement</a>
+	</div>
+</section>
+
+<style>
+	section {
+		text-align: center;
+	}
+
+	a {
+		background-color: var(--teal);
+		color: white;
+	}
+</style>

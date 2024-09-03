@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-auto'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -9,10 +9,8 @@ const config = {
 		adapter: adapter(),
 	},
 	vitePlugin: {
-		experimental: {
-			inspector: true,
-		},
-	}
+		inspector: true,
+	},
 }
 
-export default config;
+export default config

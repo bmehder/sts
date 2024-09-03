@@ -1,10 +1,10 @@
 <script>
-	export let lead = ''
+	// export let lead = ''
 	export let main = ''
 	export let description = ''
 	export let src = ''
 	export let width = '25'
-	export let leadColor = 'var(--teal)'
+	// export let leadColor = 'var(--teal)'
 	export let isCentered = false
 	export let isDownload = true
 	export let isButton = true
@@ -51,12 +51,12 @@
 		color: white;
 	}
 
-	.lead {
+	/* .lead {
 		color: var(--teal);
 		font-size: var(--size-1-5);
 		font-weight: 600;
 		text-shadow: 1px 1px 1px #545454;
-	}
+	} */
 
 	.main {
 		font-size: var(--size-3);
