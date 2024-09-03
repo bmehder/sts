@@ -14,6 +14,8 @@
 <style>
 	section {
 		padding-block: var(--size-3);
+		background-color: black;
+		color: white;
 		text-align: center;
 	}
 
@@ -30,7 +32,7 @@
 	}
 
 	.button {
-		background-color: var(--red);
-		color: white;
+		margin-top: var(--size-2);
+		background-color: var(--yellow);
 	}
 </style>

@@ -17,7 +17,7 @@
 				By breaking down language barriers, we’re extending our reach and empowering
 				more communities to recognize and act on the signs of trafficking.
 			</p>
-			<a href="" class="button">Do the thing now</a>
+			<a href="" class="button">Change This Text</a>
 		</div>
 	</div>
 </section>
@@ -34,6 +34,7 @@
 
 	.text {
 		padding-inline: var(--size-2);
+		font-size: calc(var(--size) * 1.2);
 		line-height: 1.7;
 	}
 
