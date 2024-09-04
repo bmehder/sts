@@ -1,7 +1,10 @@
 <section class="breakout">
 	<div class="inner half-space">
 		<div>
-			<img src="/going-global.jpg" alt="hands holding each other for support" />
+			<img
+				src="/our-work/taking-our-message-global.jpg"
+				alt="hands holding each other for support"
+			/>
 		</div>
 		<div class="flow text">
 			<h2>Taking Our Message Global</h2>
