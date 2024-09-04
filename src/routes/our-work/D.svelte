@@ -1,5 +1,5 @@
-<section class="full-width">
-	<div class="inner space">
+<section class="breakout">
+	<div class="inner half-space">
 		<div>
 			<img
 				src="/story/hands-holding-each-other-support.jpg"

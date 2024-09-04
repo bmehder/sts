@@ -124,4 +124,7 @@
 	.space {
 		padding-block: var(--size-6);
 	}
+	.half-space {
+		padding-block: calc(var(--size-6) / 2);
+	}
 }

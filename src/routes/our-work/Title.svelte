@@ -1,25 +1,21 @@
 <section class="full-width">
 	<div class="inner flow space">
-		<h1>Our Work</h1>
+		<h1 class="title">Our Work</h1>
 		<div class="tagline h3 balance">
 			At Share The Signal, we are on a mission to disrupt the cycle of human
 			trafficking through awareness, education, and action. Our journey started with
-			a vision—a late-night dream that turned into a powerful tool for change—and has
-			grown into a movement that is making waves across the globe.
+			a vision — <span class="bold"
+				>a late-night dream that turned into a powerful tool for change</span
+			> — and has grown into a movement that is making waves across the globe.
 		</div>
-		<a href="/get-involved" class="button">Get Involved</a>
+		<div><a href="/get-involved" class="button">Get Involved</a></div>
 	</div>
 </section>
 
 <style>
 	section {
-		background-color: black;
-		color: white;
-		text-align: center;
-	}
-
-	h1 {
-		color: var(--teal);
+		background-color: white;
+		/* color: white; */
 		text-align: center;
 	}
 
@@ -35,7 +31,8 @@
 	}
 
 	.button {
-		margin-top: var(--size-2);
-		background-color: var(--yellow);
+		margin-top: var(--size);
+		background-color: var(--red);
+		color: white;
 	}
 </style>

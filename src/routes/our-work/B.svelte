@@ -1,6 +1,6 @@
 <section class="full-width">
 	<div class="inner flow space">
-		<h2>The Birth of Share The Signal</h2>
+		<h2 class="balance">The Birth of Share The Signal</h2>
 		<p>
 			Our story begins with a moment of inspiration. After attending a business
 			meeting where a district attorney shared harrowing insights about human

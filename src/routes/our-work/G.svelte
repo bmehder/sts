@@ -1,5 +1,5 @@
 <section>
-	<div class="inner flow space h3">
+	<div class="inner flow space">
 		<h2>Building a Stronger Future</h2>
 		<p>
 			In 2022, we formalized our efforts, becoming a 501(c)(3) organization. Our
@@ -27,7 +27,8 @@
 		color: var(--red);
 	}
 
-	.h3 {
+	section > div {
+		font-size: calc(var(--size) * 1.2);
 		line-height: 1.4;
 	}
 </style>

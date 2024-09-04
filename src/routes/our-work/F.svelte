@@ -1,24 +1,36 @@
-<section class="full-width">
-	<div class="inner flow space">
+<section class="breakout">
+	<div class="inner flow half-space">
 		<h2>Join Us in the Fight</h2>
-		<p class="h3 balance">
+		<div class="text balance">
 			We invite you to be a part of this movement. Whether you’re an educator, a
 			parent, a community leader, or just someone who wants to make a difference,
 			there’s a place for you at Share The Signal. Together, we can slow the trends,
 			reduce the numbers, and create safer communities for everyone.
-		</p>
-		<a href="" class="button">Change this text</a>
+			<div><a href="" class="button">Change this text</a></div>
+		</div>
 	</div>
 </section>
 
 <style>
 	section {
-		background-color: var(--teal);
+		background-color: black;
 		color: white;
 		text-align: center;
 	}
 
-	.h3 {
-		line-height: 1.4;
+	h2 {
+		color: var(--teal);
+	}
+
+	.text {
+		max-width: 58rem;
+		margin-inline: auto;
+		font-size: calc(var(--size) * 1.2);
+		line-height: 1.7;
+	}
+
+	.button {
+		margin-top: var(--size-2);
+		background-color: var(--yellow);
 	}
 </style>

@@ -1,5 +1,5 @@
-<section>
-	<div class="inner flow space h3">
+<section class="full-width">
+	<div class="inner space flow h3">
 		<h2>Our Mission: Awareness and Action</h2>
 		<p>
 			At Share The Signal, our mission is simple yet powerful: to reduce the number
@@ -17,11 +17,18 @@
 </section>
 
 <style>
+	section {
+		margin-block: var(--size-6);
+		background-color: var(--teal);
+		color: white;
+	}
+
 	h2 {
-		color: var(--teal);
+		color: white;
 	}
 
 	.h3 {
+		font-size: calc(var(--size) * 1.2);
 		line-height: 1.4;
 	}
 </style>
