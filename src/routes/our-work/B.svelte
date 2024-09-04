@@ -41,4 +41,10 @@
 	.button {
 		background-color: white;
 	}
+
+	.button:hover {
+		background-color: transparent;
+		color: white;
+		outline: 4px solid white;
+	}
 </style>

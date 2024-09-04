@@ -33,4 +33,8 @@
 		margin-top: var(--size-2);
 		background-color: var(--yellow);
 	}
+
+	.button:hover {
+		background-color: white;
+	}
 </style>

@@ -22,8 +22,12 @@
 		line-height: 1.5;
 	}
 
-	a {
+	.button {
 		background-color: var(--teal);
 		color: white;
+	}
+
+	.button:hover {
+		background-color: var(--red);
 	}
 </style>
