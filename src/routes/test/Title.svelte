@@ -15,17 +15,17 @@
 
 <style>
 	section {
-		background-image: url('/our-work/our-work-hero.jpg');
-		/* background-image: url('https://picsum.photos/1200/767'); */
+		/* background-image: url('/our-work/our-work-hero.jpg'); */
+		background-image: url('https://picsum.photos/1200/767');
 		border-image: fill 0 linear-gradient(90deg, #0003, #0003);
 		background-size: cover;
 		color: white;
 		text-align: center;
 	}
 
-	/* h1 {
-		color: var(--yellow);
-	} */
+	h1 {
+		/* color: var(--yellow); */
+	}
 
 	.overlay {
 		max-width: max-content;
