@@ -1,10 +1,7 @@
 <section class="breakout">
 	<div class="inner half-space">
 		<div>
-			<img
-				src="/story/hands-holding-each-other-support.jpg"
-				alt="hands holding each other for support"
-			/>
+			<img src="/going-global.jpg" alt="hands holding each other for support" />
 		</div>
 		<div class="flow text">
 			<h2>Taking Our Message Global</h2>
@@ -40,7 +37,7 @@
 
 	.inner {
 		display: grid;
-		gap: var(--size-3);
+		gap: var(--size);
 
 		@media (width > 49rem) {
 			grid-template-columns: repeat(2, 1fr);
