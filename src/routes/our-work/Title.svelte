@@ -1,7 +1,7 @@
 <section class="full-width">
 	<div class="inner flow space">
 		<h1>Our Work</h1>
-		<div class="tagline h3">
+		<div class="tagline h3 balance">
 			At Share The Signal, we are on a mission to disrupt the cycle of human
 			trafficking through awareness, education, and action. Our journey started with
 			a vision—a late-night dream that turned into a powerful tool for change—and has
