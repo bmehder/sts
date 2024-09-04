@@ -6,7 +6,7 @@
 			parent, a community leader, or just someone who wants to make a difference,
 			there’s a place for you at Share The Signal. Together, we can slow the trends,
 			reduce the numbers, and create safer communities for everyone.
-			<div><a href="" class="button">Change this text</a></div>
+			<div><a href="/get-involved" class="button">Get Involved</a></div>
 		</div>
 	</div>
 </section>

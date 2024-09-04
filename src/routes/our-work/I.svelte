@@ -5,7 +5,6 @@
 			By joining forces, we can ensure that more people recognize the signs of
 			trafficking, more communities are educated, and more lives are saved.
 		</p>
-		<a href="/donate" class="button">Join the Movement</a>
 	</div>
 </section>
 

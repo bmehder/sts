@@ -22,7 +22,7 @@
 			Coronado, California, and together, they brought the idea to life. This
 			collaboration marked the birth of our organization, Share The Signal.
 		</p>
-		<a href="" class="button">Watch Our Award-Winning Film</a>
+		<!-- <a href="" class="button">Watch Our Award-Winning Film</a> -->
 	</div>
 </section>
 

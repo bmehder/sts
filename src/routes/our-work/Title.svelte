@@ -7,7 +7,7 @@
 				>a late-night dream that turned into a powerful tool for change</span
 			> — and has grown into a movement that is making waves across the globe.
 		</div>
-		<div><a href="/get-involved" class="button">Get Involved</a></div>
+		<!-- <div><a href="/get-involved" class="button">Get Involved</a></div> -->
 	</div>
 </section>
 
