@@ -17,7 +17,6 @@
 		content="At Share The Signal, we are on a mission to disrupt the cycle of human
 			trafficking through awareness, education, and action."
 	/>
-	<meta name="robots" content="noindex" />
 </svelte:head>
 
 <Title />
