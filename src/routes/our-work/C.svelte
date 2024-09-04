@@ -5,8 +5,10 @@
 <section>
 	<div class="inner space flow">
 		<h2>A Short Film with a Lasting Impact</h2>
-		<Sveltetube id="t1tIY5bgYto" />
-		<p class="h3">
+		<div class="video-wrapper">
+			<Sveltetube id="t1tIY5bgYto" />
+		</div>
+		<p>
 			The short film they produced wasn’t just another piece of media; it was a deep
 			dive into the hidden world of human trafficking, exposing the grooming
 			processes that often go unnoticed in our communities. This film was designed to
@@ -14,14 +16,14 @@
 			it’s least expected—middle America and affluent neighborhoods where secrecy is
 			often a shield for criminal activity.
 		</p>
-		<p class="h3">
+		<p>
 			The impact of the film was immediate. It was accepted into three prestigious
 			film festivals, including New York Fashion Week, where journalists interviewed
 			Doug about the project’s significance. The film’s message resonated with
 			audiences and industry professionals alike, leading to its recognition at the
 			Telly Awards, where it won in its category.
 		</p>
-		<p class="h3">
+		<p>
 			This recognition was more than just an accolade; it validated the importance of
 			our work and the necessity of our mission. The film also caught the attention
 			of Rotary District 5340, and Don was invited to present at a special Homeland
@@ -34,11 +36,23 @@
 </section>
 
 <style>
-	h2 {
-		color: var(--red);
+	section {
+		font-size: calc(var(--size) * 1.2);
+		line-height: 1.5;
 	}
 
-	.h3 {
-		line-height: 1.4;
+	.video-wrapper {
+		width: min(100%, 32rem);
+		float: right;
+		padding-bottom: var(--size-2);
+
+		@media screen and (width > 36rem) {
+			padding: var(--size);
+			padding-top: var(--size-0-5);
+		}
+	}
+
+	h2 {
+		color: var(--red);
 	}
 </style>
