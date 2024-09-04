@@ -1,5 +1,5 @@
-<section class="space full-width">
-	<div class="inner flow">
+<section class="full-width">
+	<div class="inner flow space">
 		<h1>Our Work</h1>
 		<div class="tagline h3">
 			At Share The Signal, we are on a mission to disrupt the cycle of human
@@ -13,7 +13,6 @@
 
 <style>
 	section {
-		padding-block: var(--size-3);
 		background-color: black;
 		color: white;
 		text-align: center;
