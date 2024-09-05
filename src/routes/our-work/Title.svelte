@@ -23,13 +23,22 @@
 		text-align: center;
 	}
 
+	h1 {
+		color: white;
+	}
+
 	.overlay {
+		/* --overlay-color: #49a6b666; */
+		--overlay-color: #000a;
 		max-width: max-content;
 		margin-inline: auto;
 		padding: var(--size-3);
-		border-image: fill 0 linear-gradient(90deg, #0006, #0006);
-		text-shadow: 0 0 1px black;
-		backdrop-filter: blur(10px);
+		/* border-image: fill 0 linear-gradient(90deg, #000a, #000a); */
+		border-image: fill 0
+			linear-gradient(90deg, var(--overlay-color), var(--overlay-color));
+		/* text-shadow: 0 0 4px rgba(0, 0, 0, 0.5); */
+		backdrop-filter: blur(var(--size-2));
+		/* background-color: #0001; */
 		box-shadow:
 			0 -1px 2px 0 hsl(220 40% 2% / calc(10% + 2%)),
 			0 3px 2px -2px hsl(220 40% 2% / calc(10% + 3%)),
@@ -44,7 +53,7 @@
 		max-width: 46rem;
 		margin-inline: auto;
 		font-weight: 400;
-		line-height: 1.4;
+		line-height: 1.5;
 		text-align: center;
 	}
 

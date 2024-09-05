@@ -1,11 +1,5 @@
 <section class="breakout">
 	<div class="inner half-space">
-		<div>
-			<img
-				src="/our-work/taking-our-message-global.jpg"
-				alt="hands holding each other for support"
-			/>
-		</div>
 		<div class="flow text">
 			<h2>Taking Our Message Global</h2>
 			<p>
@@ -18,6 +12,12 @@
 				more communities to recognize and act on the signs of trafficking.
 			</p>
 			<a href="/donate" class="button" target="_blank">Donate Now</a>
+		</div>
+		<div>
+			<img
+				src="/our-work/taking-our-message-global.jpg"
+				alt="hands holding each other for support"
+			/>
 		</div>
 	</div>
 </section>
@@ -33,14 +33,15 @@
 	}
 
 	.text {
-		padding-inline: var(--size-2);
+		/* padding-inline: var(--size-2); */
 		font-size: calc(var(--size) * 1.2);
 		line-height: 1.7;
 	}
 
 	.inner {
 		display: grid;
-		gap: var(--size);
+		gap: var(--size-3);
+		padding: var(--size-2);
 
 		@media (width > 49rem) {
 			grid-template-columns: repeat(2, 1fr);

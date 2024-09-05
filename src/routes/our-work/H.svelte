@@ -40,6 +40,11 @@
 		line-height: 1.5;
 	}
 
+	.inner {
+		max-width: 75ch;
+		margin-inline: auto;
+	}
+
 	.list > * + * {
 		margin-block-start: var(--size-2);
 	}
