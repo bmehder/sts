@@ -1,6 +1,6 @@
 <section>
 	<div class="inner flow space">
-		<h2>Together, we can make a difference.</h2>
+		<h2 class="balance">Together, we can make a difference.</h2>
 		<p class="h3 balance text">
 			By joining forces, we can ensure that more people recognize the signs of
 			trafficking, more communities are educated, and more lives are saved.

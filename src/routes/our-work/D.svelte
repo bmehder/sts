@@ -1,7 +1,7 @@
 <section class="breakout">
 	<div class="inner half-space">
 		<div class="flow text">
-			<h2>Taking Our Message Global</h2>
+			<h2 class="balance">Taking Our Message Global</h2>
 			<p>
 				We’re not stopping at just one film. To ensure our message reaches as many
 				people as possible, we’ve made the film available in Spanish and eight
@@ -46,6 +46,20 @@
 		@media (width > 49rem) {
 			grid-template-columns: repeat(2, 1fr);
 			align-items: center;
+		}
+
+		& .text {
+			@media (width < 48rem) {
+				grid-column-start: 1;
+				grid-row: 2;
+			}
+		}
+
+		& .image-wrapper {
+			@media (width < 48rem) {
+				grid-column-start: 1;
+				grid-row: 1;
+			}
 		}
 	}
 

@@ -103,6 +103,18 @@
 		}
 	}
 
+	.flex-1 {
+		flex: 1;
+	}
+
+	.flex-wrap {
+		flex-wrap: wrap;
+	}
+
+	.flex-wrap-reverse {
+		flex-wrap: wrap-reverse;
+	}
+
 	.align-center {
 		align-items: center;
 	}

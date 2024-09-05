@@ -1,6 +1,6 @@
 <section class="full-width">
 	<div class="inner space flow h3">
-		<h2>Our Mission: Awareness and Action</h2>
+		<h2 class="balance">Our Mission: Awareness and Action</h2>
 		<p>
 			At Share The Signal, our mission is simple yet powerful: to reduce the number
 			of human trafficking cases by raising awareness and educating communities about

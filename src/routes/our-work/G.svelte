@@ -1,6 +1,6 @@
 <section>
 	<div class="inner flow space">
-		<h2>Building a Stronger Future</h2>
+		<h2 class="balance">Building a Stronger Future</h2>
 		<div class="flow column-count-2">
 			<p>
 				In 2022, we formalized our efforts, becoming a 501(c)(3) organization. Our
