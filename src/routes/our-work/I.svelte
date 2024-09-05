@@ -1,7 +1,7 @@
 <section>
 	<div class="inner flow space">
 		<h2>Together, we can make a difference.</h2>
-		<p class="h3 balance">
+		<p class="h3 balance text">
 			By joining forces, we can ensure that more people recognize the signs of
 			trafficking, more communities are educated, and more lives are saved.
 		</p>
@@ -21,12 +21,7 @@
 		line-height: 1.5;
 	}
 
-	.button {
-		background-color: var(--teal);
-		color: white;
-	}
-
-	.button:hover {
-		background-color: var(--red);
+	.text {
+		margin-inline: auto;
 	}
 </style>

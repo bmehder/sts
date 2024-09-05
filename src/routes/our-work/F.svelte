@@ -23,7 +23,7 @@
 	}
 
 	.text {
-		max-width: 58rem;
+		max-width: 48rem;
 		margin-inline: auto;
 		font-size: calc(var(--size) * 1.2);
 		line-height: 1.7;

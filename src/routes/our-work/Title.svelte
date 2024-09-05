@@ -23,10 +23,6 @@
 		text-align: center;
 	}
 
-	/* h1 {
-		color: var(--yellow);
-	} */
-
 	.overlay {
 		max-width: max-content;
 		margin-inline: auto;
@@ -56,14 +52,4 @@
 		color: var(--yellow);
 		font-weight: bold;
 	}
-
-	/* .button {
-		margin-top: var(--size);
-		background-color: var(--red);
-		color: white;
-	}
-
-	.button:hover {
-		background-color: var(--teal);
-	} */
 </style>
