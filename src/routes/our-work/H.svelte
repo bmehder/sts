@@ -39,10 +39,6 @@
 		font-size: calc(var(--size) * 1.2);
 		line-height: 1.5;
 	}
-	/* 
-	h2 {
-		text-align: center;
-	} */
 
 	.list > * + * {
 		margin-block-start: var(--size-2);

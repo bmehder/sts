@@ -10,14 +10,14 @@
 	--size-5: calc(var(--size) * 5);
 	--size-6: calc(var(--size) * 6);
 	--fonts: system-ui, sans-serif;
-  --flow: 1.5em;
+	--flow: 1.5em;
 	--plus: '\002B';
 	--minus: '\2212';
 	view-transition-name: none;
 }
 
 @layer app {
-  * {
+	* {
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
@@ -28,11 +28,11 @@
 		scroll-behavior: smooth;
 	}
 
-  body {
+	body {
 		font-family: var(--fonts);
 	}
 
-  img,
+	img,
 	iframe,
 	picture {
 		display: block;
@@ -43,7 +43,7 @@
 		font-style: italic;
 	}
 
-  ul {
+	ul {
 		list-style: none;
 	}
 
@@ -68,7 +68,7 @@
 		content: var(--minus);
 	}
 
-  details[open] summary::marker {
+	details[open] summary::marker {
 		content: var(--minus);
 	}
 

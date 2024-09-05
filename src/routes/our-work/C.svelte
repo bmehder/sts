@@ -4,7 +4,7 @@
 
 <section>
 	<div class="inner space flow">
-		<h2>A Short Film with a Lasting Impact</h2>
+		<h2 class="balance">A Short Film with a Lasting Impact</h2>
 		<div class="video-wrapper">
 			<Sveltetube id="t1tIY5bgYto" />
 		</div>
