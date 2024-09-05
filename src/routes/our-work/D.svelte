@@ -41,11 +41,12 @@
 	.inner {
 		display: grid;
 		gap: var(--size-3);
-		padding: var(--size-2);
+		/* padding: var(--size); */
 
 		@media (width > 49rem) {
 			grid-template-columns: repeat(2, 1fr);
 			align-items: center;
+			padding: var(--size-2);
 		}
 
 		& .text {
