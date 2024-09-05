@@ -27,6 +27,10 @@
 		margin-inline: auto;
 		font-size: calc(var(--size) * 1.2);
 		line-height: 1.7;
+
+		@media screen and (width < 48rem) {
+			text-align: left;
+		}
 	}
 
 	.button {

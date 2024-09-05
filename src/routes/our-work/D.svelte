@@ -1,5 +1,5 @@
 <section class="breakout">
-	<div class="inner half-space">
+	<div class="inner">
 		<div class="flow text">
 			<h2 class="balance">Taking Our Message Global</h2>
 			<p>
@@ -41,7 +41,6 @@
 	.inner {
 		display: grid;
 		gap: var(--size-3);
-		/* padding: var(--size); */
 
 		@media (width > 49rem) {
 			grid-template-columns: repeat(2, 1fr);
