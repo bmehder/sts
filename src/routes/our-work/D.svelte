@@ -42,21 +42,21 @@
 		display: grid;
 		gap: var(--size-3);
 
-		@media (width > 49rem) {
+		@media (width >= 49rem) {
 			grid-template-columns: repeat(2, 1fr);
 			align-items: center;
 			padding: var(--size-2);
 		}
 
 		& .text {
-			@media (width < 48rem) {
+			@media (width < 49rem) {
 				grid-column-start: 1;
 				grid-row: 2;
 			}
 		}
 
 		& .image-wrapper {
-			@media (width < 48rem) {
+			@media (width < 49rem) {
 				grid-column-start: 1;
 				grid-row: 1;
 			}

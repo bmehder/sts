@@ -25,6 +25,10 @@
 		text-wrap: balance;
 	}
 
+	.pretty {
+		text-wrap: pretty;
+	}
+
 	.bold {
 		font-weight: 700;
 	}

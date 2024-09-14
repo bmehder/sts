@@ -93,6 +93,30 @@
 		}
 	}
 
+	.column-width-16 {
+		column-width: 16rem;
+	}
+
+	.column-width-24 {
+		column-width: 24rem;
+	}
+
+	.column-width-32 {
+		column-width: 32rem;
+	}
+
+	.gap-1 {
+		gap: var(--size);
+	}
+
+	.gap-2 {
+		gap: var(--size-2);
+	}
+
+	.gap-3 {
+		gap: var(--size-3);
+	}
+
 	.flex {
 		display: flex;
 		/* flex-direction: column; */

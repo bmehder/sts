@@ -8,6 +8,10 @@
 					>a late-night dream that turned into a powerful tool for change</span
 				> — and has grown into a movement that is making waves across the globe.
 			</div>
+			<!-- <div class="tagline h2 balance">
+				We're on a mission to disrupt the cycle of human trafficking through
+				<span>awareness, education, and action</span>.
+			</div> -->
 			<!-- <div><a href="/get-involved" class="button">Get Involved</a></div> -->
 		</div>
 	</div>
@@ -21,10 +25,6 @@
 		background-size: cover;
 		color: white;
 		text-align: center;
-	}
-
-	h1 {
-		color: white;
 	}
 
 	.overlay {
@@ -59,6 +59,6 @@
 
 	.tagline span {
 		color: var(--yellow);
-		font-weight: bold;
+		/* font-weight: bold; */
 	}
 </style>

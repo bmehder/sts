@@ -1,7 +1,7 @@
 <section>
 	<div class="inner flow space">
 		<h2 class="balance">Building a Stronger Future</h2>
-		<div class="flow column-count-2">
+		<div class="flow column-width-24 gap-3">
 			<p>
 				In 2022, we formalized our efforts, becoming a 501(c)(3) organization. Our
 				founders—Don Meredith, Shawn Barrieau, and Jessica Holland—have been

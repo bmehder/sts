@@ -23,6 +23,11 @@
 		color: white;
 	}
 
+	.inner {
+		max-width: 75ch;
+		margin-inline: auto;
+	}
+
 	h2 {
 		color: white;
 	}
