@@ -1,3 +1,9 @@
+<script>
+	import { page } from '$app/stores'
+
+	console.log($page)
+</script>
+
 <a class="skip-nav-link" href="#main-content">skip navigation</a>
 
 <style>
@@ -12,8 +18,8 @@
 		transform: translateY(-150%);
 
 		&:hover {
-      color: white;
-    }
+			color: white;
+		}
 
 		&:focus {
 			transition: transform 150ms ease-in;

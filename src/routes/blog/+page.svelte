@@ -5,8 +5,6 @@
 		new Date(date).toLocaleDateString('en-US', {
 			dateStyle: 'full',
 		})
-
-	console.log(data)
 </script>
 
 <section class="full-width">
@@ -20,7 +18,7 @@
 		{#each data.posts as post}
 			<div class="half-space flow">
 				<!-- {#if post._embedded['wp:featuredmedia']?.[0].source_url}
-					<a href="/blog/{post.slug}">
+					<a href="/{post.slug}">
 						<img
 							class="square"
 							src={post._embedded['wp:featuredmedia']?.[0].source_url}
@@ -29,13 +27,13 @@
 					</a>
 				{/if} -->
 				<h2 class="balance">
-					<a href="/blog/{post.slug}">{@html post.title.rendered}</a>
+					<a href="/{post.slug}">{@html post.title.rendered}</a>
 				</h2>
 				<div class="pretty flow">
 					<time datetime={post.date}>{getDate(post.date)}</time>
 					{@html post.excerpt.rendered}
 				</div>
-				<a href="/blog/{post.slug}" class="button">Read Post</a>
+				<a href="/{post.slug}" class="button">Read Post</a>
 			</div>
 		{/each}
 	</div>
