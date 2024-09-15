@@ -25,7 +25,7 @@
 </section>
 
 <style>
-	section {
+	article {
 		max-inline-size: 65ch;
 		font-size: 1.125rem;
 		line-height: 1.7;
@@ -43,7 +43,7 @@
 		list-style-type: decimal;
 	}
 
-	article :global(:where(h2, h3)) {
+	article :global(:where(h1, h2, h3)) {
 		text-wrap: balance;
 	}
 
