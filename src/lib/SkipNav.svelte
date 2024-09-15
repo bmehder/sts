@@ -1,9 +1,3 @@
-<script>
-	import { page } from '$app/stores'
-
-	console.log($page)
-</script>
-
 <a class="skip-nav-link" href="#main-content">skip navigation</a>
 
 <style>

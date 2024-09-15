@@ -16,23 +16,25 @@
 	{/if}
 </svelte:head>
 
-<section>
-	<article class="space flow">
-		{#each data.post as post}
-			{#if post._embedded['wp:featuredmedia']?.[0].source_url}
-				<img
-					src={post._embedded['wp:featuredmedia']?.[0].source_url}
-					alt={post._embedded['wp:featuredmedia']?.[0].alt_text}
-				/>
-			{/if}
-			<h1>{@html post.title.rendered}</h1>
-			<div class="flow">
-				<time datetime={post.date}>{date}</time>
-				{@html post.content.rendered}
-			</div>
-		{/each}
-	</article>
-</section>
+<article>
+	<section>
+		<div class="space flow">
+			{#each data.post as post}
+				<h1>{@html post.title.rendered}</h1>
+				{#if post._embedded['wp:featuredmedia']?.[0].source_url}
+					<img
+						src={post._embedded['wp:featuredmedia']?.[0].source_url}
+						alt={post._embedded['wp:featuredmedia']?.[0].alt_text}
+					/>
+				{/if}
+				<div class="flow">
+					<time datetime={post.date}>{date}</time>
+					{@html post.content.rendered}
+				</div>
+			{/each}
+		</div>
+	</section>
+</article>
 
 <style>
 	article {
