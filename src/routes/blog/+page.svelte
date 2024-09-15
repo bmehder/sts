@@ -7,6 +7,14 @@
 		})
 </script>
 
+<svelte:head>
+	<title>Blog - Share the Signal</title>
+	<meta
+		name="description"
+		content="Articles about the prevention of Grooming, Human Trafficking, and how you can help!"
+	/>
+</svelte:head>
+
 <section class="full-width">
 	<div class="space">
 		<h1 class="title">Blog</h1>

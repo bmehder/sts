@@ -6,6 +6,16 @@
 	})
 </script>
 
+<svelte:head>
+	{#if data?.post[0]?.yoast_head_json}
+		<title>{data?.post[0].yoast_head_json.og_title}</title>
+		<meta
+			name="description"
+			content={data?.post[0].yoast_head_json.og_description}
+		/>
+	{/if}
+</svelte:head>
+
 <section>
 	<article class="space flow">
 		{#each data.post as post}
