@@ -1,8 +1,6 @@
 <script>
 	export let data
 
-	console.log(data.post)
-
 	const date = new Date(data.post[0].date).toLocaleDateString('en-US', {
 		dateStyle: 'full',
 	})
@@ -28,7 +26,10 @@
 				property="og:image:height"
 				content={data?.post[0].yoast_head_json.og_image[0].height}
 			/>
-			<!-- <meta property="og:image:alt" content={image.alt} /> -->
+			<!-- <meta
+				property="og:image:alt"
+				content={data?.post[0].yoast_head_json.og_image[0].alt}
+			/> -->
 		{/if}
 	{/if}
 </svelte:head>

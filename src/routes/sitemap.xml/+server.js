@@ -2,21 +2,22 @@ import menuItems from '$lib/Headers/menu-items.js'
 
 const site = 'https://sharethesignal.com'
 
-// const getPosts = async () => {
-//   const endpoint = 'https://rfh-api.com/wp-json/wp/v2/posts?_embed&per_page=100'
+const getPosts = async () => {
+	const endpoint =
+		'https://stsapi1.wpenginepowered.com/wp-json/wp/v2/posts?_embed&per_page=100'
 
-//   const response = await fetch(endpoint)
-//   const posts = await response.json()
+	const response = await fetch(endpoint)
+	const posts = await response.json()
 
-//   return posts
-// }
+	return posts
+}
 
 const otherPages = [
-  // { name: 'Donate', url: '/donate/' },
+	// { name: 'Donate', url: '/donate/' },
 ]
 
 const createSitemap = ({ site, pages, posts }) => {
-  const createSiteEntry = site => `
+	const createSiteEntry = site => `
     <url>
       <loc>${site}</loc>
       <changefreq>monthly</changefreq>
@@ -24,7 +25,7 @@ const createSitemap = ({ site, pages, posts }) => {
     </url>
   `
 
-  const createPageEntry = page => `
+	const createPageEntry = page => `
     <url>
       <loc>${site}/${page}</loc>
       <changefreq>monthly</changefreq>
@@ -32,7 +33,7 @@ const createSitemap = ({ site, pages, posts }) => {
     </url>
   `
 
-  const createPostEntry = post => `
+	const createPostEntry = post => `
     <url>
       <loc>${site}/${post.slug}</loc>
       <changefreq>weekly</changefreq>
@@ -41,10 +42,10 @@ const createSitemap = ({ site, pages, posts }) => {
     </url>
   `
 
-  const getPageEntries = pages => pages.map(createPageEntry).join('')
-  const getPostEntries = posts => posts.map(createPostEntry).join('')
+	const getPageEntries = pages => pages.map(createPageEntry).join('')
+	const getPostEntries = posts => posts.map(createPostEntry).join('')
 
-  return `<?xml version="1.0" encoding="UTF-8" ?>
+	return `<?xml version="1.0" encoding="UTF-8" ?>
     <urlset
       xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"
@@ -55,6 +56,7 @@ const createSitemap = ({ site, pages, posts }) => {
     >
       ${createSiteEntry(site)}
       ${getPageEntries(pages)}
+      ${getPostEntries(posts)}
     </urlset>
   `
 }
@@ -63,30 +65,30 @@ const createSitemap = ({ site, pages, posts }) => {
 
 //list of pages as a string ex. ["about", "blog", "contact"]
 
-const excludedPages = ['/our-work/', '/blog/']
+const excludedPages = []
 
 const options = {
-  site,
-  pages: [
-    ...menuItems
-      .filter(item => item.auth !== true)
-      .filter(item => !excludedPages.includes(item.url))
-      .map(item => item.url.substring(1))
-      .filter(Boolean),
-    ...otherPages
-      .filter(item => item.auth !== true)
-      .map(item => item.url.substring(1))
-      .filter(Boolean),
-  ],
-  // posts: await getPosts(),
+	site,
+	pages: [
+		...menuItems
+			.filter(item => item.auth !== true)
+			.filter(item => !excludedPages.includes(item.url))
+			.map(item => item.url.substring(1))
+			.filter(Boolean),
+		...otherPages
+			.filter(item => item.auth !== true)
+			.map(item => item.url.substring(1))
+			.filter(Boolean),
+	],
+	posts: await getPosts(),
 }
 
 export async function GET() {
-  const body = createSitemap(options)
-  const response = new Response(body)
+	const body = createSitemap(options)
+	const response = new Response(body)
 
-  response.headers.set('Cache-Control', 'max-age=0, s-maxage=3600')
-  response.headers.set('Content-Type', 'application/xml')
+	response.headers.set('Cache-Control', 'max-age=0, s-maxage=3600')
+	response.headers.set('Content-Type', 'application/xml')
 
-  return response
+	return response
 }
