@@ -15,7 +15,7 @@
 			name="description"
 			content={data?.post[0].yoast_head_json.og_description}
 		/>
-		{#if data?.post[0].yoast_head_json.og_image.length}
+		{#if data?.post[0].yoast_head_json.og_image?.length}
 			<meta
 				property="og:image"
 				content={data?.post[0].yoast_head_json.og_image[0].url}
