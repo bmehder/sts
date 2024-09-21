@@ -18,7 +18,9 @@
 	{/if}
 </svelte:head>
 
-<OpenGraph image={data.post[0]._embedded['wp:featuredmedia']?.[0].source_url} />
+<OpenGraph
+	image={{ url: data.post[0]._embedded['wp:featuredmedia']?.[0].source_url }}
+/>
 
 <article>
 	<section>
