@@ -1,7 +1,7 @@
 <script>
-	import OpenGraph from '$lib/OpenGraph.svelte'
-
 	export let data
+
+	console.log(data.post)
 
 	const date = new Date(data.post[0].date).toLocaleDateString('en-US', {
 		dateStyle: 'full',
@@ -15,12 +15,23 @@
 			name="description"
 			content={data?.post[0].yoast_head_json.og_description}
 		/>
+		{#if data?.post[0].yoast_head_json.og_image.length}
+			<meta
+				property="og:image"
+				content={data?.post[0].yoast_head_json.og_image[0].url}
+			/>
+			<meta
+				property="og:image:width"
+				content={data?.post[0].yoast_head_json.og_image[0].width}
+			/>
+			<meta
+				property="og:image:height"
+				content={data?.post[0].yoast_head_json.og_image[0].height}
+			/>
+			<!-- <meta property="og:image:alt" content={image.alt} /> -->
+		{/if}
 	{/if}
 </svelte:head>
-
-<OpenGraph
-	image={{ url: data.post[0]._embedded['wp:featuredmedia']?.[0].source_url }}
-/>
 
 <article>
 	<section>
