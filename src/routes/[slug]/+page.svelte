@@ -1,4 +1,6 @@
 <script>
+	import OpenGraph from '$lib/OpenGraph.svelte'
+
 	export let data
 
 	const date = new Date(data.post[0].date).toLocaleDateString('en-US', {
@@ -15,6 +17,8 @@
 		/>
 	{/if}
 </svelte:head>
+
+<OpenGraph image={data.post[0]._embedded['wp:featuredmedia']?.[0].source_url} />
 
 <article>
 	<section>
