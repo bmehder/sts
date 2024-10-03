@@ -26,7 +26,7 @@
 							><Play /><span>View Share The Signal video</span></button
 						>
 					</li>
-					<li><a class="button" href="/donate">Donate now</a></li>
+					<li><a class="button" href="/donate" target="_blank">Donate now</a></li>
 				</ul>
 			</div>
 			<nav class="main-navigation">

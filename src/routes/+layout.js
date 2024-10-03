@@ -55,7 +55,7 @@ export async function load() {
 				title: "This is the success you're a part of.",
 				content:
 					'Every download, every donation, every share brings this vision closer to reality. With each step you take, you light the path to freedom and safety for countless souls.',
-				isBalance: true
+				isBalance: true,
 			},
 		],
 		stats: [
