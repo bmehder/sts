@@ -6,11 +6,11 @@
 	import Share from '$lib/icons/Share.svelte'
 	import Shield from '$lib/icons/Shield.svelte'
 	import { openModal } from 'svelte-modals'
-  import Modal from '$lib/Modal.svelte'
+	import Modal from '$lib/Modal.svelte'
 
 	function handleClick() {
-    openModal(Modal, { title: "Alert", message: "This is an alert" })
-  }
+		openModal(Modal, { title: 'Alert', message: 'This is an alert' })
+	}
 </script>
 
 <section class="space">
@@ -58,16 +58,20 @@
 			<Heart />
 			<h3>Donate</h3>
 			<p>Fuel our fight. Every dollar extends our reach and rescues more lives.</p>
-			<a href="/donate">Donate now</a>
+			<a href="/donate" target="_blank">Donate now</a>
 		</div>
 
 		<div class="item flow">
 			<Share />
 			<h3>Share</h3>
 			<p class="balance">
-				Blast our message on your social. More eyes = more awareness = more lives saved.
+				Blast our message on your social. More eyes = more awareness = more lives
+				saved.
 			</p>
-			<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//sharethesignal.com" target="_blank">Share on Facebook</a>
+			<a
+				href="https://www.facebook.com/sharer/sharer.php?u=https%3A//sharethesignal.com"
+				target="_blank">Share on Facebook</a
+			>
 		</div>
 	</div>
 </section>
@@ -81,10 +85,10 @@
 		background-color: white;
 		box-shadow: 0 1px 13px #e9e9e9;
 		border-radius: var(--size-0-5);
-    
-    @media (width > 32rem) {
-      gap: var(--size-6);
-    }
+
+		@media (width > 32rem) {
+			gap: var(--size-6);
+		}
 	}
 
 	.space {
@@ -114,7 +118,7 @@
 
 	.item {
 		max-width: 16rem;
-    padding-block: var(--size-3);
+		padding-block: var(--size-3);
 		text-align: center;
 
 		@media (width > 32rem) {

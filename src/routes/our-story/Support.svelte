@@ -2,12 +2,17 @@
 	<div class="inner">
 		<div class="flow text">
 			<div class="h2">
-				<span>Support our mission</span> by donating to combat human trafficking and provide resources to empower victims.
+				<span>Support our mission</span> by donating to combat human trafficking and provide
+				resources to empower victims.
 			</div>
-			<a href="/donate" class="button">Donate now</a>
+			<a class="button" href="/donate" target="_blank">Donate now</a>
 		</div>
 		<div class="image">
-			<img class="square" src="/story/support-our-mission.jpg" alt="woman's face close up" />
+			<img
+				class="square"
+				src="/story/support-our-mission.jpg"
+				alt="woman's face close up"
+			/>
 		</div>
 	</div>
 </section>
@@ -34,13 +39,12 @@
 			order: 1;
 		}
 	}
-	
+
 	.image {
 		padding-inline: var(--size-2);
 	}
 
 	.button {
-
 		&:hover {
 			background-color: var(--teal);
 			color: white;

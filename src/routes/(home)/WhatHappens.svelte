@@ -11,24 +11,24 @@
 				<h3 style="color: var(--red);">What Happens If We Don't Act?</h3>
 				<ul class="list">
 					<li>
-						<span class="bold">Invisible Suffering:</span> Millions continue to endure exploitation,
-						unseen.
+						<span class="bold">Invisible Suffering:</span> Millions continue to endure
+						exploitation, unseen.
 					</li>
 					<li>
-						<span class="bold">Profit for Predators:</span> Traffickers' billion-dollar industry
-						thrives.
+						<span class="bold">Profit for Predators:</span> Traffickers' billion-dollar
+						industry thrives.
 					</li>
 					<li>
 						<span class="bold">Stolen Futures:</span> Victims lose their chance for freedom
 						and dreams.
 					</li>
 					<li>
-						<span class="bold">Community Impact:</span> Local societies weaken under the strain
-						of unchecked trafficking.
+						<span class="bold">Community Impact:</span> Local societies weaken under the
+						strain of unchecked trafficking.
 					</li>
 					<li>
-						<span class="bold">Missed Change:</span> Every silence, every unshared story, every
-						undonated dollar means missed opportunities to fight back.
+						<span class="bold">Missed Change:</span> Every silence, every unshared story,
+						every undonated dollar means missed opportunities to fight back.
 					</li>
 				</ul>
 			</div>
@@ -36,22 +36,24 @@
 				<h3 style="color: var(--teal);">Your Action's Impact:</h3>
 				<ul class="list">
 					<li>
-						<span class="bold">Spot and Report:</span> More chances to identify and save victims.
+						<span class="bold">Spot and Report:</span> More chances to identify and save
+						victims.
 					</li>
 					<li>
 						<span class="bold">Cut Off Funding:</span> Each donation disrupts traffickers'
 						financial flows.
 					</li>
 					<li>
-						<span class="bold">Restore Hope:</span> Your engagement can rebuild lives and futures.
+						<span class="bold">Restore Hope:</span> Your engagement can rebuild lives
+						and futures.
 					</li>
 					<li>
-						<span class="bold">Strengthen Communities:</span> Awareness creates safer, resilient
-						neighborhoods.
+						<span class="bold">Strengthen Communities:</span> Awareness creates safer,
+						resilient neighborhoods.
 					</li>
 					<li>
-						<span class="bold">Drive Change:</span> Collective voices push for impactful legal
-						and social reforms.
+						<span class="bold">Drive Change:</span> Collective voices push for impactful
+						legal and social reforms.
 					</li>
 				</ul>
 			</div>
@@ -60,7 +62,7 @@
 			<span style="color: var(--red);">Choose Action.</span>
 			<span style="color: var(--teal);">Change Lives.</span>
 			<ul class="socials">
-				<li><a href="/donate" class="button">Donate now</a></li>
+				<li><a class="button" href="/donate" target="_blank">Donate now</a></li>
 				<li class="flex">
 					<p>Follow us on social</p>
 					<TikTok />
@@ -130,10 +132,10 @@
 	}
 
 	.button {
-    background-color: black;
-    color: white;
+		background-color: black;
+		color: white;
 
-    &:hover {
+		&:hover {
 			background-color: var(--teal);
 		}
 	}
