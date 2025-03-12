@@ -1,7 +1,7 @@
 <section class="full-width">
 	<div class="inner space">
 		<div class="flow overlay">
-			<h1 class="title">Donate & Make an Impact</h1>
+			<h1 class="title">Donate</h1>
 			<div class="tagline h2 balance">
 				Grooming is the Silent Gateway to Trafficking
 			</div>

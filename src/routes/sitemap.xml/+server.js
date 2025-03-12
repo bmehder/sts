@@ -12,9 +12,7 @@ const getPosts = async () => {
 	return posts
 }
 
-const otherPages = [
-	// { name: 'Donate', url: '/donate/' },
-]
+const otherPages = [{ name: 'Donate', url: '/donate/' }]
 
 const createSitemap = ({ site, pages, posts }) => {
 	const createSiteEntry = site => `

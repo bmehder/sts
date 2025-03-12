@@ -17,7 +17,7 @@
 				By breaking down language barriers, we’re extending our reach and empowering
 				more communities to recognize and act on the signs of trafficking.
 			</p>
-			<a href="/donate" class="button" target="_blank">Donate Now</a>
+			<a href="/donate/" class="button" target="_blank">Donate Now</a>
 		</div>
 	</div>
 </section>

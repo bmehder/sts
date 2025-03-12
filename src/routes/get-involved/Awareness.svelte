@@ -5,7 +5,7 @@
 		this outcome.
 	</div>
 	<div class="cta">
-		<a class="button" href="/donate" target="_blank">Donate now</a>
+		<a class="button" href="/donate/" target="_blank">Donate now</a>
 		<a class="download-link" href="/guide-share-the-signal.pdf" target="_blank"
 			>Download free Guide</a
 		>

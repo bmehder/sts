@@ -24,6 +24,10 @@ export default [
 		url: '/blog/',
 	},
 	{
+		name: 'Blog',
+		url: '/blog/',
+	},
+	{
 		name: 'Contact',
 		url: '/contact/',
 	},

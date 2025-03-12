@@ -6,7 +6,7 @@
 				Your support empowers victims to seek help, escape dangerous situations, and
 				rebuild their lives free from exploitation.
 			</p>
-			<a class="button" href="/donate" target="_blank">Donate now</a>
+			<a class="button" href="/donate/" target="_blank">Donate now</a>
 		</div>
 		<div class="image-container">
 			<img

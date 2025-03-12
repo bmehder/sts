@@ -62,7 +62,7 @@
 			<span style="color: var(--red);">Choose Action.</span>
 			<span style="color: var(--teal);">Change Lives.</span>
 			<ul class="socials">
-				<li><a class="button" href="/donate" target="_blank">Donate now</a></li>
+				<li><a class="button" href="/donate/" target="_blank">Donate now</a></li>
 				<li class="flex">
 					<p>Follow us on social</p>
 					<TikTok />

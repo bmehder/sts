@@ -5,7 +5,7 @@
 				<span>Support our mission</span> by donating to combat human trafficking and provide
 				resources to empower victims.
 			</div>
-			<a class="button" href="/donate" target="_blank">Donate now</a>
+			<a class="button" href="/donate/" target="_blank">Donate now</a>
 		</div>
 		<div class="image">
 			<img

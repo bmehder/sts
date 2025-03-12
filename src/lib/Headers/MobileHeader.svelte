@@ -44,7 +44,7 @@
 				{#each menuItems as { name, url }}
 					<li><a on:click={toggleMenu} href={url}>{name}</a></li>
 				{/each}
-				<li><a on:click={toggleMenu} href="/donate" target="_blank">Donate</a></li>
+				<li><a on:click={toggleMenu} href="/donate/" target="_blank">Donate</a></li>
 				<li>
 					<button class="a" on:click={handleClick} on:click={toggleMenu}
 						>Video</button
