@@ -5,12 +5,14 @@
 <section class="space full-width">
 	<div class="intro flow">
 		<h2 class="balance">
-			Imagine if the number of human trafficking victims were cut by 10%, 40%, or
-			even 60%.
+			What If You Could Stop Trafficking—Before It Starts?
 		</h2>
 		<h3 class="balance" style="color: var(--teal);">
-			Imagine if your daughter knew the signs BEFORE she mistakenly was placed in a
-			dangerous situation that could ruin her life.
+			You can.
+			When people understand grooming, they make different choices.
+			They ask the right questions.
+			They intervene sooner.
+			That’s the moment everything changes.
 		</h3>
 		<p>This is what we’re doing by simply educating ourselves.</p>
 	</div>

@@ -25,8 +25,8 @@
 </svelte:head>
 
 <Hero
-	main="Unmasking the Hidden Threats of <span style='color: var(--teal);'>Grooming</span>"
-	description="The often-overlooked precursor to human trafficking."
+	main="Before Trafficking takes place <span style='color: var(--teal);'>Grooming Happens.</span>"
+	description="We don’t do rescue missions. We stop the cycle at the start."
 	src="/home/home-hero.jpg"
 	overlayColorStart="#000a"
 	overlayColorEnd="transparent"

@@ -1,9 +1,13 @@
 <section class="full-width">
 	<div class="inner space">
 		<div class="tagline balance">
-			At Share The Signal, we're not just observers; <span>
-				we're action-takers, educators, and lifesavers.
-			</span>
+			At Share The Signal, we’re not waiting for the crisis.
+			<p style="font-size: 1.25rem; line-height: 1.7">
+				<span>
+					We show up before it starts—when manipulation is quiet, and trust is being twisted.
+					Grooming is the setup. We’re here to shut it down.
+				</span>
+			</p>
 		</div>
 		<div class="flow">
 			<p>
@@ -18,10 +22,10 @@
 			</p> -->
 			<ul class="list" style="font-size: var(--size-1-5);">
 				<li>
-					<strong>
-						Did you know that 60% of modern day trafficking victims – still live with
-						their parents?
-					</strong> Even in the middle and upper classes.
+					<strong>60% of trafficking victims are still at home.</strong>
+					Not kidnapped. Not missing.
+					They’re being manipulated in plain sight.
+					That’s grooming—and that’s where we step in.
 				</li>
 				<li style="padding-top: var(--size);">
 					Did you know by educating yourself on how predators choose their victims

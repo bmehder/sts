@@ -1,17 +1,17 @@
 <section class="space flow">
-  <h2>Join the movement, Save Lives.</h2>
+  <h2>This Is Where Trafficking Ends—At the Start</h2>
   <div class="line"></div>
   <div class="flow get-involved">
     <div class="h2">Get involved</div>
-    <p class="balance">Ready to make a difference? Visit Share The Signal for resources, training, and ways to help.</p>
-  </div>
-  <div class="flow get-involved">
-    <div class="h2">Connect with us</div>
-    <p class="balance">Follow our journey and join the community for updates and real-life stories of impact.</p>
-  </div>
-  <div class="awareness">
-    <h2>Your awareness can be someone's lifeline.</h2>
-    <p><span style="color: var(--red)">Act,</span> <span style="color: var(--teal)">Donate,</span> <span style="color: var(--yellow)">Share.</span></p>
+    <p>We’re not here to rescue—we’re here to prevent.</p>
+    <p>We’re not reactive—we’re ahead of the curve.</p>
+    <p>Because when communities know the signs of grooming, trafficking doesn’t stand a chance.</p>
+    <ul class="flow">
+      <li>Get educated</li>
+      <li>Speak up</li>
+      <li>Fund the frontline of prevention</li>
+    </ul>
+    <p>Let’s make awareness the new rescue.</p>
   </div>
 </section>
 

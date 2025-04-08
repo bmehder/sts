@@ -11,24 +11,16 @@
 				<h3 style="color: var(--red);">What Happens If We Don't Act?</h3>
 				<ul class="list">
 					<li>
-						<span class="bold">Invisible Suffering:</span> Millions continue to endure
-						exploitation, unseen.
+						<span class="bold">Predators keep targeting unnoticed</span>
 					</li>
 					<li>
-						<span class="bold">Profit for Predators:</span> Traffickers' billion-dollar
-						industry thrives.
+						<span class="bold">Teens keep thinking it’s “just a relationship”</span>
 					</li>
 					<li>
-						<span class="bold">Stolen Futures:</span> Victims lose their chance for freedom
-						and dreams.
+						<span class="bold">Parents stay unaware until it’s too late</span>
 					</li>
 					<li>
-						<span class="bold">Community Impact:</span> Local societies weaken under the
-						strain of unchecked trafficking.
-					</li>
-					<li>
-						<span class="bold">Missed Change:</span> Every silence, every unshared story,
-						every undonated dollar means missed opportunities to fight back.
+						<span class="bold">The cycle keeps going, and we stay reactive instead of proactive</span>
 					</li>
 				</ul>
 			</div>

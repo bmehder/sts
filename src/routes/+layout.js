@@ -22,27 +22,25 @@ export async function load() {
 		visionSuccess: [
 			{
 				image: '/home/vision-success/1.jpg',
-				title: 'Empowered Communities',
-				content:
-					'Streets where every person knows the signs of trafficking and how to act. A society vigilant, ready, and fearless. Your awareness sparks conversations, turning ignorance into empowerment.',
+				title: 'Prevention Starts With You',
+				content: 'Empowered Communities',
 			},
 			{
 				image: '/home/vision-success/2.jpg',
-				title: 'Rescued Lives',
-				content:
-					'Each action you take, each sign you recognize, and each report you make translates into lives pulled back from the brink. Victims transformed into survivors, embarking on journeys of healing and reclaiming their futures.',
+				title:
+					'When people learn about grooming, they don’t ignore red flags—they act.',
+				content: 'Earlier Conversations',
 			},
 			{
 				image: '/home/vision-success/3.jpg',
-				title: 'Amplified Voices',
-				content:
-					'Your shares and donations echo across the globe, amplifying the signal of hope. Awareness spreads like wildfire, igniting change and challenging the status quo. More voices join the chorus, demanding action, justice, and safety.',
+				title:
+					'We teach the questions to ask, the signs to spot, and how to talk about what no one wants to believe.',
+				content: 'Built-In Protection.',
 			},
 			{
 				image: '/home/vision-success/4.jpg',
-				title: 'Policy Shifts',
-				content:
-					'Your advocacy drives change at the highest levels. Laws evolve, protection strengthens, and survivors receive the support they need. A society reformed, with systems in place to prevent, protect, and empower.',
+				title: 'This isn’t about saving people from a dark alley.',
+				content: 'It’s about stopping exploitation before it becomes a trap.',
 			},
 			{
 				image: '/home/vision-success/5.jpg',
