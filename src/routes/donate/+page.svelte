@@ -8,8 +8,7 @@
 
 <svelte:head>
 	<title>Donate – Make an Impact - Share The Signal</title>
-	<meta name="description" content="" />
-	<meta name="robots" content="noindex, nofollow" />
+	<meta name="description" content="Your donation fuels prevention. We’re building awareness, education, and action against grooming." />
 </svelte:head>
 
 <Title />
