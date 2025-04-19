@@ -1,4 +1,5 @@
 <script>
+	import Notice from '$lib/Notice.svelte';
 	import DesktopHeader from '$lib/Headers/DesktopHeader.svelte'
 	import MobileHeader from '$lib/Headers/MobileHeader.svelte'
 
@@ -9,6 +10,8 @@
 </script>
 
 <svelte:window bind:innerWidth />
+
+<Notice />
 
 {#if innerWidth < mobileThreshold}
 	<MobileHeader {menuItems} />
