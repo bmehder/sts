@@ -21,7 +21,7 @@
       <div class="flow">
         <!-- <h3>Unbranded</h3> -->
         <a href="https://unbranded.org/" target="_blank"><img src="/home/partners/unbranded.webp" alt="Unbranded Logo"></a>
-        <p>Unbranded helps human trafficking survivors remove branding tattoos through state-of-the-art laser tattoo removal. By removing these painful reminders, survivors can reclaim self-confidence and begin a new chapter in healing.</p>
+        <p>Unbranded for a Fresh Start transforms the lives of human trafficking survivors by providing tattoo removal, scar revision and related medical services. By removing these painful reminders, survivors can reclaim self-confidence and begin a new chapter in healing.</p>
         <div><a href="https://unbranded.org/" target="_blank">Learn More &raquo;</a></div>
       </div>
     </div>
