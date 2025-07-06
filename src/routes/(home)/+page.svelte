@@ -7,6 +7,7 @@
 	import VisionSuccess from './VisionSuccess.svelte'
 	import BetterWorld from './BetterWorld.svelte'
 	import WhatHappens from './WhatHappens.svelte'
+	import Partners from './Partners.svelte'
 	import LivesChanged from './LivesChanged.svelte'
 	import JoinMovement from './JoinMovement.svelte'
 	import StayInformed from './StayInformed.svelte'
@@ -38,6 +39,7 @@
 <VisionSuccess items={data.visionSuccess} />
 <BetterWorld />
 <WhatHappens />
+<Partners />
 <LivesChanged quotes={data.quotes} />
 <JoinMovement />
 <StayInformed />

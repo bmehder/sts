@@ -19,7 +19,7 @@
 	}
 </script>
 
-<section class=" full-width">
+<section class="full-width space">
 	<div class="inner">
 		<div>
 			<h2><span>Lives Changed:</span><br />Real Stories of Rescue and Renewal.</h2>
@@ -38,7 +38,7 @@
 
 <style>
 	section {
-		padding-block-end: var(--size-6);
+		/* padding-block-end: var(--size-6); */
 		background-color: white;
 		font-weight: 400;
 	}
