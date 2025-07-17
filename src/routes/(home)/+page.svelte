@@ -12,6 +12,7 @@
 	import JoinMovement from './JoinMovement.svelte'
 	import StayInformed from './StayInformed.svelte'
 	import PreFooter from './PreFooter.svelte'
+	import Video from './Video.svelte'
 
 	export let data
 </script>
@@ -33,6 +34,7 @@
 	overlayColorEnd="transparent"
 />
 <Intro />
+<Video />
 <Stats items={data.stats} />
 <PowerMove />
 <TakeAction />
