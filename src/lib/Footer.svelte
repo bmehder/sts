@@ -8,7 +8,7 @@
 <footer class="space content-grid full-width">
   <div class="inner flow">
     <div class="flow">
-      <img style="max-width: 20rem;" src="/logo-footer.png" alt="logo">
+      <img style="max-width: 20rem;" src="/logo-light.png" alt="logo">
       <p class="h3 balance">For more information or to get involved, <span class="bold">contact us</span>.</p>
       <p style="color: var(--yellow);">Get our emails</p>
       <div class="socials">

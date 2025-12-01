@@ -16,7 +16,7 @@
 	<SkipNav />
 	<div class="inner">
 		<div class="logo">
-			<a href="/"><img src="/logo.png" alt="Share the Signal Logo" /></a>
+			<a href="/"><img src="/logo-dark.png" alt="Share the Signal Logo" /></a>
 		</div>
 		<div class="navigation">
 			<div class="secondary-navigation">
