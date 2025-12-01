@@ -24,7 +24,7 @@
 	<div class="top">
 		<div class="logo">
 			<a href="/" on:click={closeMenu}>
-				<img src="/logo.png" alt="Logo" />
+				<img src="/logo-dark.png" alt="Logo" />
 			</a>
 		</div>
 		<div class="hamburger">
